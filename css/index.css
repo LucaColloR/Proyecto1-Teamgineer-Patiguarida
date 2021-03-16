@@ -1,0 +1,176 @@
+html {
+            font-family: Verdana;
+            font-size: 16px;
+            background-image: url("../img/background-equipo1.jpg");
+        }
+        /*Anuncios*/
+        
+        .slideshow-container {
+            background-image: url("../img/background-equipo1.jpg");
+        }
+        /*Socios estrellas*/
+        
+        .socios-estrellas {
+            background-image: url("../img/background-equipo1.jpg");
+        }
+        
+        .socios-estrellas h3 {
+            padding: 50px;
+        }
+        
+        .caja img {
+            flex-wrap: wrap;
+            flex-direction: row;
+            width: 32%;
+            padding: 50px;
+        }
+        
+        .socios-estrellas .titulo-caja {
+            flex-wrap: wrap;
+            flex-direction: row;
+            font-weight: bold;
+            font-size: 18px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 33%;
+            padding: 110px;
+        }
+        
+        .socios-estrellas .patitas {
+            flex-wrap: wrap;
+            flex-direction: row;
+            font-weight: bold;
+            font-size: 18px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 33%;
+            padding: 205px;
+        }
+        /*Testimonios*/
+        
+        .testimonios {
+            padding: 30px;
+        }
+        
+        .mySlidesDos {
+            background-image: url('../img/background-mascota1.jpg');
+            padding: 30px;
+        }
+        /*Testimonios*/
+        /*Texto de cada imagen de los deslizadores*/
+        
+        .text-title {
+            padding: 30px;
+            text-decoration: underline;
+            color: #ffdd59;
+            font-size: 20px;
+        }
+        
+        .text {
+            padding: 50px;
+            color: #ffb259;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        
+        .mySlidesDos {
+            background-image: url('../img/background-equipo.jpg');
+            border: #ffb259;
+        }
+        /*Servicios destacados*/
+        
+        .servicios-destacados {
+            background-image: url("../img/background-equipo1.jpg");
+            padding: 30px;
+        }
+        
+        .servicios-destacados h3 {
+            text-align: center;
+            font-size: 30px;
+            padding: 20px 20px;
+        }
+        
+        .servicios-destacados .titulo-caja {
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin-left: auto;
+            margin-right: auto;
+            width: 25%;
+            padding: 80px;
+            font-weight: bold;
+        }
+        
+        .servicios-destacados .caja img {
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin-left: auto;
+            margin-right: auto;
+            width: 24%;
+            padding: 30px;
+        }
+        /*Beneficios*/
+        
+        .beneficios {
+            display: flex;
+            min-height: 400px;
+            background-image: url("../img/background-equipo1.jpg");
+            padding: 30px;
+        }
+        
+        .beneficios .beneficios-txt {
+            background-image: url('../img/background-mascotas-gato.jpg');
+            border-radius: 20px;
+            padding: 0px 30px;
+            color: white;
+            background-size: cover;
+            width: 50%;
+        }
+        
+        .beneficios .beneficios-txt h3 {
+            font-size: 25px;
+            color: white;
+        }
+        
+        .beneficios .beneficios-img {
+            background-image: url('../img/background-mascotas-perros.jpg');
+            border-radius: 20px;
+            background-size: cover;
+            width: 50%;
+        }
+        
+        .beneficios .beneficios-txt ul li {
+            margin: 0 0 20px 0;
+            padding: 25px;
+            font-size: 18px;
+            color: white;
+        }
+        /*footer*/
+        /**footer {
+            margin: 20px;
+        }*/
+        
+        footer .footer-patiguarida {
+            width: 50%;
+            float: left;
+            padding: 20px;
+        }
+        
+        footer .logo-redes-sociales {
+            width: 50%;
+            float: right;
+        }
+        
+        footer .logo-redes-sociales .img-logo-facebook {
+            background-image: url('../img/logo-facebook.jpg');
+            width: 33%;
+        }
+        
+        footer .logo-redes-sociales .img-logo-instagram {
+            background-image: url('../img/logo-instagram.jpg');
+            width: 33%;
+        }
+        
+        footer .logo-redes-sociales .img-logo-twitter {
+            background-image: url('../img/logo-twitter.jpg');
+            width: 33%;
+        }
