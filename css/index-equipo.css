@@ -1,0 +1,67 @@
+html {
+    font-family: Verdana;
+    font-size: 16px;
+    background-image: url("../img/background-equipo1.jpg");
+    /*color: #e1b12c #ffdd59 #718093 #7f8fa6 #353b48 #2f3640 #1e272e #f5f6fa;*/
+}
+
+
+/*Botón*/
+
+.button-equipo .btn {
+    /*todos los elementos serán iguales*/
+    background-color: #ffa502;
+    border: #333 solid 2px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /*para redondear*/
+    font-size: 18px;
+    padding: 15px;
+    margin: 30px -90px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+
+img {
+    width: 250px;
+}
+
+h1 {
+    text-align: center;
+    float: center;
+    font-size: 50px;
+    border: rgba(19, 18, 18, 0.7) 3px;
+    color: #e12c2c;
+    transform: translate(0px, -120px);
+}
+
+.mision,
+.vision,
+.valores,
+.equipo {
+    padding: 15px;
+    border-bottom: rgba(19, 18, 18, 0.7) 3px solid;
+    color: black;
+}
+
+h2 {
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+    color: hsl(215, 15%, 22%);
+}
+
+.text-title {
+    padding: 30px;
+    text-decoration: underline;
+    color: #ffdd59;
+    font-size: 20px;
+}
+
+.text {
+    padding: 50px;
+    color: #ffdd59;
+    font-size: 16px;
+}
