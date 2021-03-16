@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--no son visibles/configuración de la página/metadatos-->
+    <meta charset="utf-8">
+    <!--para utilizar todos los caracteres especiales-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/deslizadores.css">
+    <link rel="stylesheet" href="css/tabla.css">
+    <!--para enlazar html con la hoja de estilos css-->
+    <title>Patiguarida</title>
+</head>
+
+
+
+<body>
+    <header class="header-principal">
+        <nav>
+            <div class="logo-patiguarida">
+                <img src="img/logo-equipo.jpeg">
+            </div>
+
+            <div class="inicio-izq">
+                <a href="index.html">Inicio</a>
+                <span>|</span>
+                <a href="servicios.html">Servicios</a>
+            </div>
+
+            <div class="inicio-der">
+                <a href="crea-cuenta.html">Crear cuenta</a>
+                <span>|</span>
+                <a href="inicio-sesion.html">Ingresar</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!--Anuncios slides-->
+
+        <section class="anuncios">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <img src="img/img-perfil-vacio.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/img-perfil-vacio.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/img-perfil-vacio.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/img-perfil-vacio.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/img-perfil-vacio.jpg">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/img-perfil-vacio.jpg">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+            </div>
+
+        </section>
+
+        <!--Fin anuncios slides-->
+
+        <!--Botón-->
+        <section class="separador">
+            <a href="crea-cuenta.html"><button type="button" class="btn">¡Empiece ya a cuidar de su mascota!</button></a>
+        </section>
+
+        <!--Socios estrellas-->
+        <div class="socios-estrellas">
+            <div class="title">
+                <h3>¡Conozca a nuestros socios estrellas!</h3>
+            </div>
+
+            <span class="titulo-caja">
+                María José Morales Ochoa 
+            </span>
+            <span class="titulo-caja">
+                Carlos Gutiérrez Hernández
+            </span>
+            <span class="titulo-caja">
+                Catalina Aguilar Fernández
+            </span>
+
+
+            <span class="caja">
+                <img src="img/usuarioEstrella1.jpg">
+            </span>
+            <span class="caja">
+                <img src="img/UsuarioEstrella3.jpg">
+            </span>
+            <span class="caja">
+                <img src="img/usuarioEstrella2.jpg">
+            </span>
+
+            <span class="patitas">
+                4.9/5 🐾
+            </span>
+            <span class="patitas">
+                5/5 🐾
+            </span>
+            <span class="patitas">
+                4.9/5 🐾
+            </span>
+
+        </div>
+
+        <!--Testimonios slides-->
+        <section class="testimonios">
+            <div class="title">
+                <h3>Testimonios</h3>
+            </div>
+            <!--slides-->
+            <section class="testimonios">
+                <div class="slideshow-container">
+
+                    <div class="mySlidesDos fade">
+                        <a>¡Excelente servicio! ¡En tiempos de pandemia, servicios de este tipo son indispensable!</a>
+                        <div class="text-title">Usuario anónimo
+                        </div>
+                    </div>
+
+                    <div class="mySlidesDos fade">
+                        <a>Además de cuidar a mis perritas, Ale ha ido a la veterinaria cuando se percató que una de mis perritas estaba enferma. ¡Muchas gracias!</a>
+                        <div class="text-title">Usuario anónimo
+                        </div>
+                    </div>
+
+                    <div class="mySlidesDos fade">
+                        <a>Tener una veterinaria a estas horas de la noche ha sido una salvada. ¡La doctora María ha sido muy amable!</a>
+                        <div class="text-title">Usuario anónimo
+                        </div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlidesDos(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlidesDos(1)">&#10095;</a>
+
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                    <span class="dotDos" onclick="currentSlideDos(1)"></span>
+                    <span class="dotDos" onclick="currentSlideDos(2)"></span>
+                    <span class="dotDos" onclick="currentSlideDos(3)"></span>
+                </div>
+
+            </section>
+
+        </section>
+        <!--Fin testimonios slides-->
+
+        <!--Inicio servicios destacados/se ha podido poner un título sobre cada imagen pero no es responsive-->
+        <div class="servicios-destacados">
+            <div class="title">
+                <h3>Servicios destacados</h3>
+            </div>
+
+            <span class="titulo-caja">
+                Paseador de perros
+            </span>
+            <span class="titulo-caja">
+               Veterinaria a domicilio
+            </span>
+            <span class="titulo-caja">
+                Cuidador de perros
+            </span>
+            <span class="titulo-caja">
+                Hotel para perros y gatos
+            </span>
+
+
+
+
+            <span class="caja">
+                <img src="img/background-paseadorDePerro.jpg">
+            </span>
+            <span class="caja">
+                <img src="img/background-veterinariaADomicilio.jpg">
+            </span>
+            <span class="caja">
+              
+                <img src="img/background-cuidadorDePerros.jpg">
+            </span>
+            <span class="caja">
+                <img src="img/background-hotelParaMascotas.jpg">
+            </span>
+            <!--Fin servicios destacados-->
+
+            <!--Beneficios-->
+
+            <section class="beneficios">
+                <div class="beneficios-txt">
+                    <h3>Cuida tus mascotas de la mejor manera</h3>
+                    <ul>
+                        <li>&#10003 Atención personalizada</li>
+                        <li>&#10003 Todos los servicios a su diposición</li>
+                        <li>&#10003 Servicio 24/7</li>
+                        <li>&#10003 Comunicación directa con los proveedores</li>
+                    </ul>
+                </div>
+
+                <div class="beneficios-img">
+
+                </div>
+            </section>
+
+    </main>
+    <footer>
+        <div class="footer-patiguarida">
+            Patiguarida
+        </div>
+        <section class="logo-redes-sociales">
+            <div class="img-logo-facebook">
+
+            </div>
+            <div class="img-logo-instagram">
+
+            </div>
+            <div class="img-logo-twitter">
+
+            </div>
+
+        </section>
+        <div>
+
+        </div>
+
+    </footer>
+
+    <script src="js/deslizadores.js"></script>
+    <script src="js/deslizadores-dos.js"></script>
+</body>
+
+</html>
