@@ -1,0 +1,97 @@
+/*html {
+    color: #e1b12c #ffdd59 #718093 #7f8fa6 #353b48 #2f3640 #1e272e #f5f6fa;*/
+   
+   html {
+       font-family: Verdana;
+       font-size: 16px;
+   }
+   /*Títulos*/
+   
+   h3 {
+       text-align: center;
+       font-size: 30px;
+       padding: 20px;
+   }
+   
+   .flotar-izq {
+       float: left;
+   }
+   
+   .flotar-der {
+       float: right;
+   }
+   
+   .btn {
+       /*todos los elementos serán iguales*/
+       background-color: #ffa502;
+       border: #333 solid 2px;
+       border-radius: 10px;
+       margin-left: auto;
+       margin-right: auto;
+       /*para redondear*/
+       font-size: 18px;
+       padding: 15px;
+       margin: 30px -160px;
+       position: relative;
+       top: 50%;
+       left: 50%;
+   }
+   
+   .error {
+       border: 2px solid #B53471
+   }
+   
+   .ocultar {
+       display: none;
+   }
+   
+   .active {
+       color: red;
+   }
+   
+   .btn:hover {
+       color: red;
+   }
+   /*header*/
+   /*Nav*/
+   
+   nav {
+       background-image: url('../img/background-nav.jpg');
+   }
+   
+   .logo-patiguarida {
+       width: 33%;
+   }
+   
+   .inicio-izq {
+       width: 33%;
+       position: absolute;
+       left: 200px;
+       top: 175px;
+   }
+   
+   .inicio-der {
+       width: 33%;
+       position: absolute;
+       right: -250px;
+       top: 178px;
+   }
+   
+   .logo-patiguarida img {
+       width: 200px;
+   }
+   
+   .header-principal {
+       background: #ffa502;
+       padding: 15px;
+   }
+   
+   .header-principal nav a {
+       color: #fff;
+       text-decoration: none;
+   }
+   
+   .header-principal nav a:hover {
+       color: rgb(255, 123, 0);
+       text-decoration: underline;
+   }
