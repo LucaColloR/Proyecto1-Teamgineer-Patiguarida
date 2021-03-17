@@ -18,33 +18,23 @@ html {
             padding: 50px;
         }
         
-        .caja img {
-            flex-wrap: wrap;
-            flex-direction: row;
-            width: 32%;
-            padding: 50px;
+        .tbl-socios-estrellas tbody .titulo-caja {
+            width: 33%;
+            justify-content: center;
+            text-align: center;
         }
         
-        .socios-estrellas .titulo-caja {
-            flex-wrap: wrap;
-            flex-direction: row;
-            font-weight: bold;
-            font-size: 18px;
-            margin-left: auto;
-            margin-right: auto;
-            width: 33%;
-            padding: 110px;
+        .tbl-socios-estrellas tbody img {
+            width: 60%;
+            justify-content: center;
+            margin: auto;
+            display: block;
         }
         
-        .socios-estrellas .patitas {
-            flex-wrap: wrap;
-            flex-direction: row;
-            font-weight: bold;
-            font-size: 18px;
-            margin-left: auto;
-            margin-right: auto;
+        .tbl-socios-estrellas tbody .patitas {
             width: 33%;
-            padding: 205px;
+            justify-content: center;
+            text-align: center;
         }
         /*Testimonios*/
         
@@ -90,23 +80,17 @@ html {
             padding: 20px 20px;
         }
         
-        .servicios-destacados .titulo-caja {
-            flex-wrap: wrap;
-            flex-direction: row;
-            margin-left: auto;
-            margin-right: auto;
-            width: 25%;
-            padding: 80px;
-            font-weight: bold;
+        .tbl-servicios-destacados tbody .titulo-caja {
+            width: 20%;
+            justify-content: center;
+            text-align: center;
         }
         
-        .servicios-destacados .caja img {
-            flex-wrap: wrap;
-            flex-direction: row;
-            margin-left: auto;
-            margin-right: auto;
-            width: 24%;
-            padding: 30px;
+        .tbl-servicios-destacados tbody img {
+            width: 100%;
+            justify-content: center;
+            margin: auto;
+            display: block;
         }
         /*Beneficios*/
         
@@ -155,22 +139,4 @@ html {
             padding: 20px;
         }
         
-        footer .logo-redes-sociales {
-            width: 50%;
-            float: right;
-        }
         
-        footer .logo-redes-sociales .img-logo-facebook {
-            background-image: url('../img/logo-facebook.jpg');
-            width: 33%;
-        }
-        
-        footer .logo-redes-sociales .img-logo-instagram {
-            background-image: url('../img/logo-instagram.jpg');
-            width: 33%;
-        }
-        
-        footer .logo-redes-sociales .img-logo-twitter {
-            background-image: url('../img/logo-twitter.jpg');
-            width: 33%;
-        }
