@@ -1,4 +1,4 @@
-/*html {
+   /*html {
     color: #e1b12c #ffdd59 #718093 #7f8fa6 #353b48 #2f3640 #1e272e #f5f6fa;*/
    
    html {
@@ -20,6 +20,7 @@
    .flotar-der {
        float: right;
    }
+   /*button*/
    
    .btn {
        /*todos los elementos serán iguales*/
@@ -36,6 +37,7 @@
        top: 50%;
        left: 50%;
    }
+   /*Funcionalidades*/
    
    .error {
        border: 2px solid #B53471
@@ -52,46 +54,63 @@
    .btn:hover {
        color: red;
    }
-   /*header*/
-   /*Nav*/
+   /*Header*/
+   /*NAVIGATION*/
    
-   nav {
-       background-image: url('../img/background-nav.jpg');
+   ul {
+       list-style: none;
    }
    
-   .logo-patiguarida {
-       width: 33%;
-   }
-   
-   .inicio-izq {
-       width: 33%;
-       position: absolute;
-       left: 200px;
-       top: 175px;
-   }
-   
-   .inicio-der {
-       width: 33%;
-       position: absolute;
-       right: -250px;
-       top: 178px;
-   }
-   
-   .logo-patiguarida img {
-       width: 200px;
-   }
-   
-   .header-principal {
-       background: #ffa502;
+   .logo {
+       width: 98%;
+       margin: auto;
        padding: 15px;
    }
    
-   .header-principal nav a {
+   .nav-main {
+       font-size: 18px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       height: 60px;
+       padding: 20px 0;
+   }
+   
+   .imglogo {
+       border-radius: 10px;
+       width: 150px;
+   }
+   /*nav-izq*/
+   
+   .nav-main ul {
+       display: flex;
+   }
+   
+   .nav-main ul li {
+       padding: 10px;
+   }
+   
+   .nav-main ul li a {
+       padding: 3px;
+   }
+   
+   .nav-main ul li a:hover {
+       border-bottom: 2px solid #fff;
+   }
+   
+   .nav-main ul.nav-izq {
+       flex: 1;
+       margin-left: 20px;
+   }
+   
+   .header-principal .nav-main a,
+   .header-principal .nav-der a {
        color: #fff;
        text-decoration: none;
    }
    
-   .header-principal nav a:hover {
-       color: rgb(255, 123, 0);
+   .header-principal .nav-main a:hover,
+   .header-principal .nav-der a:hover {
+       color: #f5f6fa(255, 123, 0);
        text-decoration: underline;
    }
