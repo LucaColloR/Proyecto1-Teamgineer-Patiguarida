@@ -24,17 +24,23 @@ html {
     left: 50%;
 }
 
-img {
-    width: 250px;
-}
 
-h1 {
+
+
+
+/*NAV*/
+
+.header-equipo ul li {
     text-align: center;
     float: center;
     font-size: 50px;
     border: rgba(19, 18, 18, 0.7) 3px;
     color: #e12c2c;
     transform: translate(0px, -120px);
+}
+
+.header-equipo img {
+    width: 250px;
 }
 
 .mision,
