@@ -1,73 +1,172 @@
-<!--deslizadores-->
-        <section class="equipo">
-            <h2>
-                Integrantes del grupo
-            </h2>
-            <div class="slideshow-container">
+* {
+    box-sizing: border-box
+}
 
-                <div class="mySlides fade">
-                    <img src="img/foto-perfil-Lizbeth.jpeg">
-                    <div class="text-title">Lizbeth Montero Ramirez<br/> Coordinadora general</div>
-                    <div class="text">Fortalezas y debilidades: <br/>1-Disciplinada </br>
-                        2-Un poco negativa
-                    </div>
-                </div>
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
 
-                <div class="mySlides fade">
-                    <img src="img/img-perfil-vacio.jpg">
-                    <div class="text-title">Michael Porras Brenes<br/> Coordinador de Desarrollo</div>
-                    <div class="text">Fortalezas y debilidades: <br/>1-Enfocado, puntual y responsable </br>
-                        2-Negativo y rencoroso
-                    </div>
-                </div>
+.mySlides {
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: none;
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-                <div class="mySlides fade">
-                    <img src="img/foto-perfil-Luca.jpeg">
-                    <div class="text-title">Luca Collo Rompais<br/>Coordinador de Soporte 1</div>
-                    <div class="text">Fortalezas y debilidades: <br/>1-Disciplinado, perseverante y empático
-                        </br>
-                        2-Conformista
-                    </div>
-                </div>
+.mySlidesDos {
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: none;
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-                <div class="mySlides fade">
-                    <img src="img/foto-perfil-Andres.jpeg">
-                    <div class="text-title">Jose Andrés Sandi Ledezma<br/>Coordinador de Soporte 2</div>
-                    <div class="text">Fortalezas y debilidades: <br/>1-Perseverante, Bondadoso </br>
-                        2-Sobre pensador y pesimista
-                    </div>
-                </div>
+img {
+    background-position: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 30px;
+}
 
-                <div class="mySlides fade">
-                    <img src="img/foto-perfil-Valeria.jpeg">
-                    <div class="text-title">Valeria Villatoro<br/>Coordinadora Calidad 1
-                    </div>
-                    <div class="text">Fortalezas y debilidades: <br/>1-Empática </br>
-                        2-Competitiva
-                    </div>
-                </div>
 
-                <div class="mySlides fade">
-                    <img src="img/foto-perfil-Alison.jpeg">
-                    <div class="text-title">Alison Yeung Vásque<br/>Coordinadora de calidad 2</div>
-                    <div class="text">Fortalezas y debilidades: <br/>1-Determinada </br>
-                        2-Perfeccionista
-                    </div>
-                </div>
+/* Slideshow container */
 
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 
-            </div>
-            <br>
 
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-                <span class="dot" onclick="currentSlide(4)"></span>
-                <span class="dot" onclick="currentSlide(5)"></span>
-                <span class="dot" onclick="currentSlide(6)"></span>
-            </div>
+/* Next & previous buttons */
 
-        </section>
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: rgb(17, 17, 17);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Caption text */
+
+.text {
+    color: #e6ff01d2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: bottom;
+    top: 10px;
+    left: 10px;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-position: left;
+    width: 100%;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dotDos {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
