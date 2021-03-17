@@ -32,6 +32,17 @@ img {
     flex-wrap: wrap;
     flex-direction: row;
     padding: 30px;
+    width: 100%;
+}
+
+
+/*Página equipo*/
+
+.equipo .mySlides img {
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-position: left;
+    width: 50%;
 }
 
 
@@ -95,13 +106,6 @@ img {
     text-align: center;
 }
 
-img {
-    flex-wrap: wrap;
-    flex-direction: row;
-    background-position: left;
-    width: 100%;
-}
-
 
 /* The dots/bullets/indicators */
 
@@ -148,6 +152,26 @@ img {
     }
     to {
         opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
     }
 }
 
