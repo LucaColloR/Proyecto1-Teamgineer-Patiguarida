@@ -1,7 +1,9 @@
 html {
             font-family: Verdana;
             font-size: 16px;
-            background-image: url("../img/background-equipo1.jpg");
+            /*background-image: url("../img/background-equipo1.jpg");*/
+            /*background: linear-gradient(to right, rgb(255, 222, 89) 0%, rgb(255, 222, 89) 100%);*/
+            background: rgb(255, 222, 89);
         }
         /*Anuncios*/
         
@@ -139,4 +141,23 @@ html {
             padding: 20px;
         }
         
+        footer .logo-redes-sociales {
+            width: 50%;
+            float: right;
+        }
+        
+        footer .logo-redes-sociales .img-logo-facebook {
+            background-image: url('../img/logo-facebook.jpg');
+            width: 33%;
+        }
+        
+        footer .logo-redes-sociales .img-logo-instagram {
+            background-image: url('../img/logo-instagram.jpg');
+            width: 33%;
+        }
+        
+        footer .logo-redes-sociales .img-logo-twitter {
+            background-image: url('../img/logo-twitter.jpg');
+            width: 33%;
+        }
         
