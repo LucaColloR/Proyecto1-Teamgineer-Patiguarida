@@ -1,0 +1,50 @@
+    html {
+        font-family: Verdana;
+        font-size: 16px;
+        /*background-image: url("../img/background-equipo1.jpg");*/
+        /*background: linear-gradient(to right, rgb(255, 222, 89) 0%, rgb(255, 222, 89) 100%);*/
+        background: rgb(255, 222, 89);
+    }
+    /*Servicios*/
+    
+    .socios-estrellas {
+        background-image: url("../img/background-equipo1.jpg");
+    }
+    
+    .tbl-serviciosUno tbody .titulo-caja,
+    .tbl-serviciosDos tbody .titulo-caja,
+    .tbl-serviciosTres tbody .titulo-caja {
+        width: 33%;
+        justify-content: center;
+        text-align: center;
+        padding: 30px;
+    }
+    
+    .tbl-serviciosUno tbody img,
+    .tbl-serviciosDos tbody img,
+    .tbl-serviciosTres tbody img {
+        width: 50%;
+        justify-content: center;
+        margin: auto;
+        display: block;
+    }
+    
+    .tbl-serviciosUno .btn,
+    .tbl-serviciosDos .btn,
+    .tbl-serviciosTres .btn {
+        width: 40%;
+        justify-content: center;
+        margin: auto;
+        display: block;
+        background-color: #ffa502;
+        border: #333 solid 2px;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 14px;
+        padding: 5px;
+        margin: -10px -250px;
+        position: relative;
+        top: 50%;
+        left: 100%;
+    }
