@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--no son visibles/configuración de la página/metadatos-->
+    <meta charset="utf-8">
+    <!--para utilizar todos los caracteres especiales-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/servicios.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--<link rel="stylesheet" href="css/tabla.css">-->
+    <!--para enlazar html con la hoja de estilos css-->
+    <title>Patiguarida</title>
+</head>
+
+
+
+<body>
+    <header class="header-principal">
+        <div class="logo">
+            <nav class="nav-main">
+                <img src="img/logopag.jpg" alt="Patiguarida LOGO" class="imglogo">
+                <ul class="nav-izq">
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>|
+                    </li>
+                    <li>
+                        <a href="servicios.html">Servicios</a>
+                    </li>
+
+                </ul>
+                <ul class="nav-der">
+                    <li>
+                        <a href="crea-cuenta.html">Crear cuenta</a>
+                    </li>
+                    <li>|
+                    </li>
+                    <li>
+                        <a href="inicio-sesion.html">Ingresar</a>
+                    </li>
+                </ul>
+            </nav>
+            <hr>
+        </div>
+    </header>
+
+
+    <main>
+
+        <!--Servicios-->
+        <section class="servicios">
+            <div class="title">
+                <h3>¡Escoja el servicio que usted desea!</h3>
+            </div>
+            <!--Servicios/primero línea-->
+            <table class="tbl-serviciosUno">
+                <tbody>
+                    <tr>
+                        <td class="titulo-caja">
+                            Paseador de perro
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="caja-servicios">
+                            <a href="crea-cuenta.html"><button type="button" class="btn">Ver el perfil del proveedor</button></a>
+                            <img src="img/usuarioEstrella1.jpg">
+                            <a href="crea-cuenta.html"><button type="button" class="btn">Obtener este servicio</button></a>
+                        </td>
+
+                        <td class="caja-servicios">
+                            <a href="crea-cuenta.html"><button type="button" class="btn">Ver el perfil del proveedor</button></a>
+                            <img src="img/usuarioEstrella1.jpg">
+                            <a href="crea-cuenta.html"><button type="button" class="btn">Obtener este servicio</button></a>
+                        </td>
+
+                        <td class="caja-servicios">
+                            <a href="crea-cuenta.html"><button type="button" class="btn">Ver el perfil del proveedor</button></a>
+                            <img src="img/usuarioEstrella1.jpg">
+                            <a href="crea-cuenta.html"><button type="button" class="btn">Obtener este servicio</button></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!--Servicios/segunda línea-->
+            <table class="tbl-serviciosDos">
+                <tbody>
+                    <tr>
+                        <td class="titulo-caja">
+                            Veterinaria a domicilio
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="caja-servicios">
+                            <a href="crea-cuenta.html"><button type="button" class="btn">Ver el perfil del proveedor</button></a>
+                            <img src="img/usuarioEstrella1.jpg">
+                            <a href="crea-cuenta.html"><button type="button" class="btn">Obtener este servicio</button></a>
+                        </td>
+
+                        <td class="caja-servicios">
+                            <a href="crea-cuenta.html"><button type="button" class="btn">Ver el perfil del proveedor</button></a>
+                            <img src="img/usuarioEstrella1.jpg">
+                            <a href="crea-cuenta.html"><button type="button" class="btn">Obtener este servicio</button></a>
+                        </td>
+
+                        <td class="caja-servicios">
+                            <a href="crea-cuenta.html"><button type="button" class="btn">Ver el perfil del proveedor</button></a>
+                            <img src="img/usuarioEstrella1.jpg">
+                            <a href="crea-cuenta.html"><button type="button" class="btn">Obtener este servicio</button></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!--Servicios/tercera línea-->
+            <table class="tbl-serviciosTres">
+                <tbody>
+                    <tr>
+                        <td class="titulo-caja">
+                            Cuidador de perros
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="caja-servicios">
+                            <a href="crea-cuenta.html"><button type="button" class="btn">Ver el perfil del proveedor</button></a>
+                            <img src="img/usuarioEstrella1.jpg">
+                            <a href="crea-cuenta.html"><button type="button" class="btn">Obtener este servicio</button></a>
+                        </td>
+
+                        <td class="caja-servicios">
+                            <a href="crea-cuenta.html"><button type="button" class="btn">Ver el perfil del proveedor</button></a>
+                            <img src="img/usuarioEstrella1.jpg">
+                            <a href="crea-cuenta.html"><button type="button" class="btn">Obtener este servicio</button></a>
+                        </td>
+
+                        <td class="caja-servicios">
+                            <a href="crea-cuenta.html"><button type="button" class="btn">Ver el perfil del proveedor</button></a>
+                            <img src="img/usuarioEstrella1.jpg">
+                            <a href="crea-cuenta.html"><button type="button" class="btn">Obtener este servicio</button></a>
+                        </td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+
+
+        <!--Fin servicios destacados-->
+
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h3>Patiguarida</h3>
+            <p>¡Encuéntranos en nuestras redes sociales!</p>
+            <ul class="socials">
+                <li><a href="https://twitter.com/home"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/#_=_"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/deslizadores.js"></script>
+    <script src="js/deslizadores-dos.js"></script>
+</body>
+
+</html>
