@@ -1,0 +1,35 @@
+.formulario {
+    padding: 30px;
+    width: 50%;
+    /*para que ocupe el 50% de la página*/
+}
+
+.formulario h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.formulario div {
+    margin-bottom: 20px;
+}
+
+.formulario label {
+    display: inline-block;
+    /*para elementos en línea,para alinear*/
+    font-size: 22px;
+    width: 190px;
+}
+
+.formulario input {
+    height: 30px;
+    width: 200px;
+}
+
+.formulario select {
+    height: 30px;
+    width: 210px;
+}
+
+.formulario .btn {
+    padding: 10px;
+}
