@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/crear-cuenta.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Agregar vacuna | Patiguarida</title>
+</head>
+
+<body>
+    <header class="header-principal">
+
+
+        <div class="logo">
+            <nav class="nav-main">
+                <img src="img/logopag.jpg" alt="Patiguarida LOGO" class="imglogo">
+                <ul class="nav-izq">
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>|
+                    </li>
+                    <li>
+                        <a href="servicios.html">Servicios</a>
+                    </li>
+
+                </ul>
+                <ul class="nav-der">
+                    <li>
+                        <a href="crea-cuenta.html">Crear cuenta</a>
+                    </li>
+                    <li>|
+                    </li>
+                    <li>
+                        <a href="inicio-sesion.html">Ingresar</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <hr>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <form class="formulario">
+                <h1>Agregar una vacuna</h1>
+                <div>
+                    <label for="txt-nombre-vacuna">Nombre de la vacuna</label>
+                    <input type="text" id="txt-nombre-vacuna" required>
+                </div>
+
+                <div>
+                    <label for="slt-tipo-mascota">Tipo de mascota</label>
+                    <select id="slt-tipo-mascota" required>
+                        <option value="">--Seleccione una opción--</option>
+                        <option value="Perro">Perro</option>
+                        <option value="Gato">Gato</option>
+                    </select>
+                </div>
+
+                <div>
+                    <button type="button" , id="btn-guardar" class="btn">
+                        Guardar cambios
+                    </button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h3>Patiguarida</h3>
+            <p>¡Encuéntranos en nuestras redes sociales!</p>
+            <ul class="socials">
+                <li><a href="https://twitter.com/home"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/#_=_"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="js/servicios.js"></script>
+    <script src="js/navegacion.js"></script>
+    <script src="js/agregar-vacuna.js"></script>
+</body>
+
+</html>
