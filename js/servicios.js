@@ -25,24 +25,33 @@ const mostrarTabla = () => {
             });
 
 
-            let botonAdquerirServicio = document.createElement('button');
-            botonAdquerirServicio.innerText = 'Adquerir este servicio';
+            let botonAdquirirServicio = document.createElement('button');
+            botonAdquirirServicio.innerText = 'Adquirir este servicio';
 
-            botonAdquerirServicio.addEventListener('click', () => {
+            botonAdquirirServicio.addEventListener('click', () => {
                 Swal.fire({
                     'icon': 'warning',
-                    'title': 'Esta seguro de adquerir este servicio?',
-                    'text': 'Una notificación será envida al proveedor para aceptar o no la propuesta.',
+                    'title': '¿Está seguro de adquirir este servicio?',
+                    'text': 'Una notificación será enviada al proveedor para aceptar o no la propuesta.',
                     'showCancelButton': true,
-                    'confirmButtonText': 'Sí!, estoy seguro',
-                    'cancelButtonText': 'Cancel'
+                    'confirmButtonText': '¡Sí! estoy seguro',
+                    'cancelButtonText': 'Cancelar'
 
                 }).then((result) => {
                     if (result.isConfirmed) {
-                        Swal.fire(
-                            '',
+                        Swal.fire({
+                                'title': '',
+                                'text': 'Propuesta de servicio enviada al proveedor. Por favor espere su respuesta..',
+                                'imageUrl': 'img/sticker1-success.jpg',
+                                'imageWidth': 400,
+                                'imageHeight': 200,
+                                'imageAlt': 'Custom image'
+                            }
+                            /*'',
                             'Propuesta de servicio enviada al proveedor. Por favor espere su respuesta. ',
-                            'success'
+                            'success',*/
+
+
                         )
                     }
                 })
@@ -51,7 +60,7 @@ const mostrarTabla = () => {
             // Agregarle los botones a la celda
 
             celdaAcciones.appendChild(botonPerfilProveedor);
-            celdaAcciones.appendChild(botonAdquerirServicio);
+            celdaAcciones.appendChild(botonAdquirirServicio);
         }
 
 
