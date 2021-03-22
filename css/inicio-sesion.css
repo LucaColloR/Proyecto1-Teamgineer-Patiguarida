@@ -1,0 +1,89 @@
+/* hace el recuadro de fondo*/
+
+.formulario {
+    position: relative;
+    margin-top: 6em;
+    margin-left: 370px;
+    width: 500px;
+    height: 400px;
+    border: 3px solid #555;
+}
+
+.formulario label {
+    display: table-cell;
+    font-size: 22px;
+    height: 10px;
+    /*min-width: 170px;*/
+}
+
+.maincontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cat-login {
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.animcon {
+    background-color: white;
+    overflow: hidden;
+    /*overflow hidden because to keep the hand image hidden below*/
+    margin-top: 20px;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    background-image: url('img/cat.gif');
+    background-size: 90% 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: right;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
+    /*flex center to keep the hand image in the center*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.animcon img {
+    margin-top: 110%;
+    height: 170px;
+    width: 170px;
+    transition: 1s;
+}
+
+input {
+    height: 40px;
+    width: 300px;
+    /*background-color: #254E58;*/
+    border-radius: 20px;
+    border: none;
+    color: #5a5449;
+    text-indent: 15px;
+    font-size: 100%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
+    outline: none;
+}
+
+input::placeholder {
+    color: #5a5449;
+    font-size: 100%;
+    font-weight: lighter;
+    text-indent: 15px;
+}
+
+.atras a {
+    color: #e1b12c;
+    font-size: 18px;
+    text-decoration: none;
+}
