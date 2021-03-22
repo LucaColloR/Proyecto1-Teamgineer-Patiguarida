@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/inicio-sesion.css">
     <link rel="stylesheet" href="css/style-inicio-sesion.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
 
@@ -26,9 +25,12 @@
 
 
                 <form>
-                    <ul class='atras'>
-                        <a class="fa fa-arrow-circle-left" href="index.html"><i>Inicio</i></a>
-                    </ul>
+                    <div class='atras'>
+                        <ul>
+                            <a class="fa fa-arrow-circle-left" href="index.html"><i>Inicio</i></a>
+                        </ul>
+                    </div>
+
                     <input type="email" id="txt-correo" name="" onclick="openeye();" class="tb" placeholder="Email" autocomplete="off" />
                     <br/>
                     <br/>
@@ -41,7 +43,7 @@
                 </form>
                 <br/>
                 <br/>
-                <a href="recuperarContrasena.html"> ¿Olvidó su contraseña?</a>
+                <a href="recuperarContrasena.html" class="olvido-contrasenna"> ¿Olvidó su contraseña?</a>
             </div>
 
 
@@ -51,7 +53,7 @@
             <div>
                 <select id="slt-tipoRegistro">
                         <option value="">----Registrarse aquí----</option>
-                        <option value="Cliente">Cliente</option>
+                        <a href="registro-cliente.html"><option value="Cliente">Cliente</option></a>
                         <option value="Proveedor">Proveedor</option>
                         </select>
             </div>
