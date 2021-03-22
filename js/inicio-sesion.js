@@ -12,13 +12,12 @@ let listaUsuarios = [{
         'nacimiento': '03-11-1991',
         'sexo': 'Femenino',
         'contrasenna': '123Abc!',
-        'tipo': 'Instructor'
+        'tipo': 'Proveedor'
     },
     {
         'correo': 'pablo@gmail.com',
         'nombre': 'Pablo Monestel',
         'nacimiento': '10-12-1987',
-
         'sexo': 'Masculino',
         'contrasenna': '123Abc!',
         'tipo': 'Cliente'
@@ -102,7 +101,7 @@ const iniciarSesion = (correo, contrasenna) => {
             'confirmButtonText': 'Entendido'
         }).then(() => {
             /*cambiar a la pagina correcto */
-            window.location.replace("http://127.0.0.1:5502/plataforma-pago.html");
+            window.location.replace("index-usuario.html");
         });
     } else {
         Swal.fire({
@@ -116,10 +115,10 @@ const iniciarSesion = (correo, contrasenna) => {
 //Colocar las paginas de registro de Cliente y registro de proveedor.
 const registrar = () => {
     if (selectTipoU.value == 'Cliente') {
-        window.location.replace("http://127.0.0.1:5501/registro-cliente.html");
+        window.location.replace("registro-cliente.html");
 
     } else if (selectTipoU.value == 'Proveedor') {
-        window.location.replace("http://127.0.0.1:5501/registro-proveedor.html");
+        window.location.replace("registro-proveedor.html");
     }
 };
 

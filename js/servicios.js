@@ -21,7 +21,7 @@ const mostrarTabla = () => {
             botonPerfilProveedor.innerText = 'Ver el perfil del proveedor';
             botonPerfilProveedor.addEventListener('click', () => {
                 sessionStorage.setItem('proveedorSeleccionado', JSON.stringify(servicio));
-                window.location.href = 'usuario-modificar.html';
+                window.location.href = 'perfil-proveedor.html';
             });
 
 
@@ -40,8 +40,8 @@ const mostrarTabla = () => {
                 }).then((result) => {
                     if (result.isConfirmed) {
                         Swal.fire({
-                                'title': '',
-                                'text': 'Propuesta de servicio enviada al proveedor. Por favor espere su respuesta..',
+                                'title': 'Propuesta de servicio enviada al proveedor.',
+                                'text': ' Por favor espere su respuesta...',
                                 'imageUrl': 'img/sticker1-success.jpg',
                                 'imageWidth': 400,
                                 'imageHeight': 200,

@@ -90,7 +90,6 @@ const mostrarTabla = () => {
 /*
 const imagenFactura = () => {
     let error = false;
-
     if (inputNomServicio.value == '') {
         logoServicio.innerHTML = 'no estoy';
     }
