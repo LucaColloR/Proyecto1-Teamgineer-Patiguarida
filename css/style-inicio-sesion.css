@@ -1,5 +1,6 @@
 body {
-    background-size: 5%;
+    /*   background-size: 5%;*/
+    background: radial-gradient(circle, rgba(59, 59, 59, 1) 0%, rgba(31, 31, 31, 1) 40%, rgba(0, 0, 0, 1) 100%);
 }
 
 .error {
@@ -16,13 +17,18 @@ body {
     align-items: center;
 }
 
+h3 {
+    padding: 20px;
+    font-size: 18px;
+}
+
 .maincontainer {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    background-color: #4b4b4b;
+    margin-top: 8%;
 }
 
 .catlogin {
@@ -35,6 +41,11 @@ body {
     border-radius: 40px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
+}
+
+.catlogin h2 {
+    margin-top: 3%;
+    font-size: 22px;
 }
 
 .animcon {
@@ -64,7 +75,8 @@ body {
 }
 
 .formcon a {
-    margin-left: 25%;
+    margin-left: 20%;
+    margin-top: -20%;
 }
 
 .formcon {
@@ -73,7 +85,7 @@ body {
 
 .formcon .h3 {
     margin-top: -5%;
-    font-size: 15px;
+    font-size: 11px;
     margin-left: 1%;
     padding: 30px;
 }
@@ -117,15 +129,23 @@ input::placeholder {
     cursor: pointer;
     display: inline-block;
     font-size: 18px;
-    margin-left: 80px;
+    margin-left: 25%;
     outline: none;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
+    margin-block-end: -5%;
 }
 
 .btn:hover {
     background-color: #c2961f
+}
+
+.atras a {
+    color: #e1b12c;
+    font-size: 19px;
+    text-decoration: none;
+    transform: translate(-170px, -230px);
 }
 
 
