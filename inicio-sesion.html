@@ -1,89 +1,80 @@
-/* hace el recuadro de fondo*/
 
-.formulario {
-    position: relative;
-    margin-top: 6em;
-    margin-left: 370px;
-    width: 500px;
-    height: 400px;
-    border: 3px solid #555;
-}
+<!DOCTYPE html>
+<html>
 
-.formulario label {
-    display: table-cell;
-    font-size: 22px;
-    height: 10px;
-    /*min-width: 170px;*/
-}
+<head>
+    <title>inicio-sesion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/inicio-sesion.css">
+    <link rel="stylesheet" href="css/style-inicio-sesion.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
 
-.maincontainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-}
+</head>
 
-.cat-login {
-    width: 350px;
-    height: 500px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 40px;
-}
+<body>
 
-.animcon {
-    background-color: white;
-    overflow: hidden;
-    /*overflow hidden because to keep the hand image hidden below*/
-    margin-top: 20px;
-    height: 170px;
-    width: 170px;
-    border-radius: 50%;
-    background-image: url('img/cat.gif');
-    background-size: 90% 85%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position-x: right;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
-    /*flex center to keep the hand image in the center*/
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
+    <div class="maincontainer">
 
-.animcon img {
-    margin-top: 110%;
-    height: 170px;
-    width: 170px;
-    transition: 1s;
-}
+        <div class="catlogin">
+            <div class="animcon" id="animcon">
+                <img id="hands" src="img/hands2.png" />
+            </div>
+            <h2>Bienvenido a la Patiguarida</h2>
 
-input {
-    height: 40px;
-    width: 300px;
-    /*background-color: #254E58;*/
-    border-radius: 20px;
-    border: none;
-    color: #5a5449;
-    text-indent: 15px;
-    font-size: 100%;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
-    outline: none;
-}
+            <div class="formcon">
 
-input::placeholder {
-    color: #5a5449;
-    font-size: 100%;
-    font-weight: lighter;
-    text-indent: 15px;
-}
 
-.atras a {
-    color: #e1b12c;
-    font-size: 18px;
-    text-decoration: none;
-}
+                <form>
+                    <ul class='atras'>
+                        <a class="fa fa-arrow-circle-left" href="index.html"><i>Inicio</i></a>
+                    </ul>
+                    <input type="email" id="txt-correo" name="" onclick="openeye();" class="tb" placeholder="Email" autocomplete="off" />
+                    <br/>
+                    <br/>
+                    <input type="password" id="txt-contrasenna" onclick="closeye();" name="pwd" class="tb" placeholder="Password" />
+                    <br/>
+                    <br/>
+                    <button type="button" id="btn-iniciar" class="btn">Iniciar sesión</button>
+                    <br/>
+                    <br/>
+                </form>
+                <br/>
+                <br/>
+                <a href="recuperarContrasena.html"> ¿Olvidó su contraseña?</a>
+            </div>
+
+
+            <h3>¿No está registrado?</h3>
+
+
+            <div>
+                <select id="slt-tipoRegistro">
+                        <option value="">----Registrarse aquí----</option>
+                        <option value="Cliente">Cliente</option>
+                        <option value="Proveedor">Proveedor</option>
+                        </select>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <h3>Patiguarida</h3>
+            <p>¡Encuéntranos en nuestras redes sociales!</p>
+            <ul class="socials">
+                <li><a href="https://twitter.com/home"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/#_=_"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script type="text/javascript" src="js/inicio-sesion.js"></script>
+    <script type="text/javascript" src="js/recuperar-contra.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
