@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/general.css">
+    <!--  -->
+
+    <link rel="stylesheet" href="css/like-face.css">
+    <link rel="stylesheet" href="css/registroMascota.css">
+
+
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header-principal">
+        <nav>
+            <div class="flotar-izq">
+                <a href="index.html">Inicio</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class='contenedor'>
+            <div class="profile">
+                <img src="img/avatar-mascotas.jpg" id="imagen">
+                <input type="file" id="file">
+                <label for="file" id="btn-actualizar">Subir foto</label>
+            </div>
+            <section class="titulo">
+                <h1>Registro de Mascotas.</h1>
+            </section>
+
+            <section class="formulario">
+                <div>
+                    <label for="txt-nombreMascota"></label>
+                    <input type="text" name='nombre-mascota' id="txt-nombreMascota" required placeholder="Nombre de la mascota.">
+
+                </div>
+
+                <div>
+                    <select name='tipo' id="slt-tipo" required>
+                    <option value="">-Seleccione el tipo-</option>
+                    <option value="Perro">Perro</option>
+                    <option value="Gato">Gato</option>
+                    </select>
+                </div>
+
+                <div>
+                    <select name='raza' id="slt-raza" required>
+                <option value="">-Seleccione la raza-</option>
+                <option value="Bulldog">Bulldog</option>
+                <option value="Chihuahua">Chihuahua</option>
+                <option value="Gran danés">Gran danés</option>
+                <option value="Angora">Angora</option>
+                <option value="Persa">Persa</option>
+                <option value="Ruso Azul">Ruso Azul</option>
+                <option value="Sin raza definida">Sin raza definida</option>
+            </select>
+                </div>
+                <div>
+                    <select name='edad' id="slt-edad" required>
+                        <option value="">-Seleccione la edad.-</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                    </select>
+                </div>
+
+
+                <div>
+                    <select multiple name='vacunas' id="slt-vacunas" required>
+                    <option value="">-Seleccione las vacunas al día-</option>
+                    <option value="Múltiple Canina">Múltiple Canina</option>
+                    <option value="Vacuna contra la rabia">Vacuna contra la rabia</option>
+                    <option value="Vacuna Tos de las perreras">Vacuna Tos de las perreras</option>
+                    <option value="Vacuna Triple Felina">Vacuna Triple Felina</option>
+                    <option value="Vacuna de Leucemia Felina">Vacuna de Leucemia Felina</option>
+                    <option value="Ninguna">Ninguna</option>
+                </select>
+                </div>
+
+                <div>
+                    <select multiple name='padecimientos' id="slt-padecimientos" required>
+                    <option value="">-Seleccione los padecimientos-</option>
+                    <option value="Moquillo">Moquillo</option>
+                    <option value=" Hepatitis canina"> Hepatitis canina</option>
+                    <option value="Leptospirosis">Leptospirosis</option>
+                    <option value="Parvovirus">Parvovirus</option>
+                    <option value="Rabia">Rabia</option>
+                    <option value="Brucelosis">Brucelosis</option>
+                    <option value="Enfermedad de Lyme">Enfermedad de Lyme</option>
+                    <option value="Tos de las perreras">Tos de las perreras</option>
+                    <option value="Toxoplasmosis">Toxoplasmosis</option>
+                    <option value="Otitis">Otitis</option>
+                    <option value="Conjuntivitis">Conjuntivitis</option>
+                    <option value="Alergias cutáneas">Alergias cutáneas</option>
+                    <option value="Gastritis aguda"> Gastritis aguda</option>
+                    <option value=" Diarrea"> Diarrea</option>
+                    <option value="Leishmaniosis">Leishmaniosis</option>
+                    <option value="Sarna demodéctica">Sarna demodéctica</option>
+                    <option value="Mastitis">Mastitis</option>
+                    <option value="Torsión/dilatación">Torsión/dilatación</option>
+                    <option value="Cáncer">Cáncer</option>
+                    <option value="Insuficiencia renal crónica">Insuficiencia renal crónica</option>
+                    <option value="Hipertiroidismo">Hipertiroidismo</option>
+                    <option value="Diabetes Mellitus">Diabetes Mellitus</option>
+                    <option value="Infección por retrovirus">Infección por retrovirus</option>
+                    <option value="Cáncer en felinos">Cáncer en felinos</option>
+                    <option value="Ninguna">Ninguna</option>
+                </select>
+                </div>
+                <textarea id="txtA-carac-especiales" name="caracteristicas-especiales" required placeholder="Características especiales." rows="4" cols="50"></textarea>
+
+                <div>
+                    <label for="txt-numero-duenno"></label>
+                    <input type="text" name='telefono' id="txt-numero-duenno" required placeholder="Teléfono del dueño">
+
+                </div>
+            </section>
+            <div>
+                <button type="button" id="btn-registrarM" class="btn">Registrar Mascota</button>
+            </div>
+        </div>
+        </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h3>Patiguarida</h3>
+            <p>¡Encuéntranos en nuestras redes sociales!</p>
+            <ul class="socials">
+                <li><a href="https://twitter.com/home"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/#_=_"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="js/like-face.js"></script>
+<script src="js/registro-mascota.js"></script>
+
+
+</html>
