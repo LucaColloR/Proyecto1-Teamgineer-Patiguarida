@@ -1,199 +1,173 @@
-     
-        html {
-            font-family: Verdana;
-            font-size: 16px;
-            color: #e1b12c;
-            /*background-image: url("../img/background-equipo1.jpg");*/
-            /*background: linear-gradient(to right, rgb(255, 222, 89) 0%, rgb(255, 222, 89) 100%);*/
-            /*background: rgb(255, 222, 89);*/
-        }
-        
-        body {
-            background: rgb(59, 59, 59);
-            background: radial-gradient(circle, rgba(59, 59, 59, 1) 0%, rgba(31, 31, 31, 1) 25%, rgba(0, 0, 0, 1) 100%);
-        }
-        
-        h3 {
-            text-align: center;
-            font-size: 30px;
-            padding: 20px;
-        }
-        /*Anuncios*/
-        
-        .slideshow-container {
-            background: rgb(59, 59, 59);
-            background: radial-gradient(circle, rgba(59, 59, 59, 1) 0%, rgba(31, 31, 31, 1) 25%, rgba(0, 0, 0, 1) 100%);
-        }
-        /*button*/
-        /*.btn {
-            background-color: #ffa502;
-            border: #333 solid 2px;
-            border-radius: 10px;
-            margin-left: auto;
-            margin-right: auto;
-            font-size: 18px;
-            padding: 15px;
-            margin: 30px -160px;
-            position: relative;
-            top: 50%;
-            left: 50%;
-        }*/
-        
-        .btn:active {
-            background-color: #c2961f;
-            box-shadow: 0 5px #666;
-            transform: translateY(4px);
-        }
-        
-        .btn {
-            background-color: #606460;
-            border: none;
-            border-radius: 15px;
-            box-shadow: 0 9px #999;
-            color: #fff;
-            cursor: pointer;
-            display: inline-block;
-            font-size: 18px;
-            margin-block-end: 0px;
-            outline: none;
-            padding: 10px 20px;
-            text-align: center;
-            text-decoration: none;
-            margin: 30px -160px;
-            position: relative;
-            top: 50%;
-            left: 50%;
-        }
-        
-        .btn:hover {
-            background-color: #c2961f
-        }
-        /*Socios estrellas*/
-        
-        .socios-estrellas {
-            background: rgb(59, 59, 59);
-            background: radial-gradient(circle, rgba(59, 59, 59, 1) 0%, rgba(31, 31, 31, 1) 25%, rgba(0, 0, 0, 1) 100%);
-        }
-        
-        .socios-estrellas h3 {
-            padding: 50px;
-        }
-        
-        .tbl-socios-estrellas tbody .titulo-caja {
-            width: 33%;
-            justify-content: center;
-            text-align: center;
-            padding: 10px;
-        }
-        
-        .tbl-socios-estrellas tbody img {
-            width: 60%;
-            justify-content: center;
-            margin: auto;
-            display: block;
-            padding: 10px;
-            border-radius: 15px;
-        }
-        
-        .tbl-socios-estrellas tbody .patitas {
-            width: 33%;
-            justify-content: center;
-            text-align: center;
-            padding: 30px;
-        }
-        /*Testimonios*/
-        
-        .testimonios {
-            padding: 30px;
-        }
-        
-        .mySlidesDos {
-            background: rgb(59, 59, 59);
-            background: radial-gradient(circle, rgba(59, 59, 59, 1) 0%, rgba(31, 31, 31, 1) 25%, rgba(0, 0, 0, 1) 100%);
-            padding: 30px;
-        }
-        /*Testimonios*/
-        /*Texto de cada imagen de los deslizadores*/
-        
-        .text-title {
-            padding: 30px;
-            text-decoration: underline;
-            font-size: 20px;
-        }
-        
-        .text {
-            padding: 50px;
-            font-size: 16px;
-            font-weight: bold;
-        }
-        
-        .mySlidesDos {
-            background: rgb(59, 59, 59);
-            background: radial-gradient(circle, rgba(59, 59, 59, 1) 0%, rgba(31, 31, 31, 1) 25%, rgba(0, 0, 0, 1) 100%);
-            border: #ffb259;
-        }
-        /*Servicios destacados*/
-        
-        .servicios-destacados {
-            background: rgb(59, 59, 59);
-            background: radial-gradient(circle, rgba(59, 59, 59, 1) 0%, rgba(31, 31, 31, 1) 25%, rgba(0, 0, 0, 1) 100%);
-            padding: 30px;
-        }
-        
-        .servicios-destacados h3 {
-            text-align: center;
-            font-size: 30px;
-            padding: 20px 20px;
-            padding-bottom: 50px;
-        }
-        
-        .tbl-servicios-destacados tbody .titulo-caja {
-            width: 20%;
-            justify-content: center;
-            text-align: center;
-        }
-        
-        .tbl-servicios-destacados tbody img {
-            border-radius: 25px;
-            width: 100%;
-            justify-content: center;
-            margin: auto;
-            display: block;
-            padding: 20px;
-        }
-        /*Beneficios*/
-        
-        .beneficios {
-            display: flex;
-            min-height: 400px;
-            background: rgb(59, 59, 59);
-            background: radial-gradient(circle, rgba(59, 59, 59, 1) 0%, rgba(31, 31, 31, 1) 25%, rgba(0, 0, 0, 1) 100%);
-            padding: 30px;
-        }
-        
-        .beneficios .beneficios-txt {
-            background-image: url('../img/background-mascotas-gato.jpg');
-            border-radius: 20px;
-            padding: 0px 30px;
-            background-size: cover;
-            width: 50%;
-        }
-        
-        .beneficios .beneficios-txt h3 {
-            font-size: 25px;
-            color: white;
-        }
-        
-        .beneficios .beneficios-img {
-            background-image: url('../img/background-mascotas-perros.jpg');
-            border-radius: 20px;
-            background-size: cover;
-            width: 50%;
-        }
-        
-        .beneficios .beneficios-txt ul li {
-            margin: 0 0 20px 0;
-            padding: 25px;
-            font-size: 18px;
-            color: white;
-        }
+   /*html {
+    color: #e1b12c #ffdd59 #718093 #7f8fa6 #353b48 #2f3640 #1e272e #f5f6fa;*/
+   
+   html {
+       font-family: Verdana;
+       font-size: 16px;
+       /*background-image: url("../img/background-equipo1.jpg");*/
+       /*background: linear-gradient(to right, rgb(255, 222, 89) 0%, rgb(255, 222, 89) 100%);*/
+       /*background: rgb(255, 222, 89);*/
+   }
+   
+   * {
+       box-sizing: border-box;
+   }
+   /*Títulos*/
+   
+   .flotar-izq {
+       float: left;
+   }
+   
+   .flotar-der {
+       float: right;
+   }
+   /*Funcionalidades*/
+   
+   .error {
+       border: 2px solid red;
+   }
+   
+   .ocultar {
+       display: none;
+   }
+   /*.active {
+       color: red;
+   }
+   
+   .btn:hover {
+       color: red;
+   }*/
+   /*Header*/
+   /*NAVIGATION*/
+   
+   .header-principal {
+       background-color: black;
+       color: white;
+   }
+   
+   ul {
+       list-style: none;
+   }
+   
+   .logo {
+       width: 98%;
+       margin: auto;
+       padding: 15px;
+   }
+   
+   .imglogo {
+       border-radius: 10px;
+       width: 150px;
+       padding: 35px;
+       border-radius: 40px;
+   }
+   
+   .nav-main {
+       font-size: 17px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       height: 60px;
+       padding: 20px 0;
+   }
+   /*nav-izq*/
+   
+   .nav-main ul {
+       display: flex;
+   }
+   
+   .nav-main ul li {
+       padding: 1px;
+   }
+   
+   .nav-main ul li a {
+       padding: 1px;
+   }
+   
+   .nav-main ul li a:hover {
+       border-bottom: 2px solid #fff;
+   }
+   
+   .nav-main ul.nav-izq {
+       flex: 1;
+       margin-left: 20px;
+   }
+   
+   .header-principal .nav-main a,
+   .header-principal .nav-der a {
+       color: #fff;
+       text-decoration: none;
+   }
+   
+   .header-principal .nav-main a:hover,
+   .header-principal .nav-der a:hover {
+       color: #f5f6fa(255, 123, 0);
+   }
+   /*Footer*/
+   
+   footer {
+       background: #2f3640;
+       height: auto;
+       padding-top: 20px;
+       color: white;
+   }
+   
+   .footer-content {
+       max-height: 170px;
+       /* changed to make it smaller*/
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       text-align: center;
+       font-family: Verdana;
+   }
+   
+   .footer-content h3 {
+       padding: 5px;
+       font-size: 40px;
+       font-weight: 400;
+       text-transform: capitalize;
+       line-height: 20px;
+   }
+   
+   .footer-content p {
+       max-width: 1000px;
+       margin: 5px;
+       line-height: 28px;
+       font-size: 25px;
+   }
+   
+   .socials {
+       list-style: none;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin: 1rem 0 3rem 0;
+   }
+   
+   .socials li {
+       margin: 0 10px;
+   }
+   
+   .socials a {
+       text-decoration: none;
+       color: white;
+       padding: 20px;
+   }
+   
+   .socials a i {
+       font-size: 40px;
+       transition: color .4s ease;
+   }
+   
+   .socials a:hover i {
+       color: #ffdd59;
+   }
+   
+   .footer-bottom {
+       background: black;
+       width: 100vw;
+       padding: 20px 0;
+       text-align: center;
+   }

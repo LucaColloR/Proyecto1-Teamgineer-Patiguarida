@@ -1,0 +1,160 @@
+html {
+    height: 100%;
+    font-family: Verdana;
+}
+
+body {
+    height: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'verdana';
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.btn {
+    float: right;
+    background-color: #7f8fa6;
+    color: white;
+    padding: 12px 16px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: #333 solid 2px;
+}
+
+.banner {
+    background-image: url('../img/yellowback.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+    /* Alineación con flex */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 90%;
+    border-bottom-left-radius: 90%;
+}
+
+.foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    display: flex;
+    margin: 50px 50px;
+}
+
+.informacion {
+    display: flex;
+    margin: 20px;
+    padding: 30px;
+    align-content: center;
+}
+
+.detalles-mascota {
+    font-size: 23px;
+    border-right: 8px solid #ffdd59;
+    color: rgb(8, 8, 8);
+    width: 50%;
+    padding: 10px;
+    display: table-header-group;
+}
+
+.detalles-mascota div {
+    padding: 25px;
+}
+
+.detalles-mascota label {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.detalles-mascota div {
+    padding: 15px;
+}
+
+.detalles-mascota i {
+    padding: 20px;
+}
+
+.informacion-contacto {
+    font-size: 30px;
+}
+
+.informacion-contacto a {
+    font-size: 30px;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.seccion-mascotas {
+    width: 50%;
+    align-content: center;
+}
+
+.detalles-adicionales {
+    margin: 10px;
+    width: 50%;
+}
+
+.detalles-adicionales h2 {
+    font-size: 25px;
+}
+
+.informacion-mascotas {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.seccion-mascotas {
+    font-size: 20px;
+}
+
+.seccion-mascotas h4 {
+    padding: 15px;
+}
+
+.seccion-mascotas li {
+    padding: 15px;
+    list-style: none;
+}
+
+.seccion-mascotas li:before {
+    content: "\1F43E";
+    padding: 10px;
+}
+
+.caracteristicas-especiales p {
+    width: 50%;
+    margin: 20px;
+    padding: 55px;
+    border: 2px solid #ffdd59;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    background-color: #ced5e0;
+}

@@ -2,14 +2,19 @@
             font-family: Verdana;
             font-size: 16px;
             color: #e1b12c;
-            /*background-image: url("../img/background-equipo1.jpg");*/
-            /*background: linear-gradient(to right, rgb(255, 222, 89) 0%, rgb(255, 222, 89) 100%);*/
-            /*background: rgb(255, 222, 89);*/
+            background-color: rgb(59, 59, 59);
+            background: radial-gradient(circle, rgba(59, 59, 59, 1) 0%, rgba(31, 31, 31, 1) 25%, rgba(0, 0, 0, 1) 100%);
         }
         
         body {
             background: rgb(59, 59, 59);
             background: radial-gradient(circle, rgba(59, 59, 59, 1) 0%, rgba(31, 31, 31, 1) 25%, rgba(0, 0, 0, 1) 100%);
+        }
+        
+        h3 {
+            text-align: center;
+            font-size: 30px;
+            padding: 20px;
         }
         /*Anuncios*/
         

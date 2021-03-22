@@ -1,0 +1,246 @@
+body {
+    background: radial-gradient(circle, rgba(59, 59, 59, 1) 0%, rgba(31, 31, 31, 1) 40%, rgba(0, 0, 0, 1) 100%);
+}
+
+.error {
+    border: 2px solid #f00673;
+}
+
+.formularioPago a {
+    color: #ffb259;
+    ;
+}
+
+h6 {
+    color: #AAA;
+    margin-left: 10%;
+    margin-top: 80px;
+    font-family: Verdana;
+    font-size: 23px;
+    text-shadow: 2px 2px 0px #606460;
+}
+
+.formularioPago {
+    font-family: Verdana;
+    font-size: 16px;
+    position: relative;
+    margin-top: 2em;
+    margin-left: 50px;
+    width: 550px;
+    height: 450px;
+}
+
+.formularioPago h1 {
+    font-size: 22px;
+    text-shadow: 2px 2px 0 #AAA;
+    margin-block-end: 20px;
+}
+
+.formularioPago h2 {
+    margin-top: 12px;
+    font-size: 19px;
+    margin-block-end: 10px;
+}
+
+.formularioPago h3 {
+    margin-top: 15px;
+    font-size: 19px;
+    margin-block-end: 10px;
+}
+
+.formularioPago h4 {
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-block-end: 4px;
+    /**/
+}
+
+.formularioPago h5 {
+    margin-top: 25px;
+    font-size: 19px;
+    margin-block-end: 10px;
+}
+
+.formularioPago p1 {
+    text-shadow: 1px 1px 0 rgb(182, 178, 178);
+}
+
+.formularioPago p {
+    text-shadow: 1px 1px 0 rgb(182, 178, 178);
+    margin-block-end: 5px;
+}
+
+.formularioPago label {
+    display: table-cell;
+    font-size: 22px;
+    height: 10px;
+    min-width: 170px;
+}
+
+.formularioPago select {
+    height: 25px;
+    width: 80px;
+}
+
+.formularioPago .btn:active {
+    background-color: #c2961f;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.formularioPago .btn {
+    background-color: #606460;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    margin-block-end: 0px;
+    margin-left: 140px;
+    margin-top: 20px;
+    outline: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.formularioPago .btn:hover {
+    background-color: #c2961f
+}
+
+
+/*festilos de factura*/
+
+.factura {
+    display: flex;
+    min-height: 800px;
+    font-family: color black;
+    color: rgb(8, 6, 6);
+    padding: 0px 50px 0px 50px;
+    width: 60%;
+    margin-left: 700px;
+    margin-top: -14.8%;
+    margin-block-end: 1emx;
+}
+
+.factura .logo-servicio {
+    text-align: right;
+    min-height: 70px;
+}
+
+.factura .logo-servicio img {
+    width: 70%;
+    height: 24%;
+    object-fit: cover;
+    max-width: 500px;
+    border-radius: 20%;
+    margin-block-start: 30%;
+    box-shadow: 0 0 10px 5px;
+}
+
+.factura input,
+label {
+    margin-top: 40%;
+    color: rgb(19, 14, 14);
+    align-items: center;
+    display: inherit;
+}
+
+.lista p {
+    font-family: Verdana;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 15%;
+}
+
+.tarjeta {
+    width: 500%;
+    max-width: 550px;
+    position: relative;
+    color: #fff;
+    transition: .3s ease all;
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+    cursor: pointer;
+    z-index: 2;
+    margin-top: -0%;
+}
+
+.tarjeta.active {
+    transform: rotateY(180deg);
+}
+
+.tarjeta>div {
+    padding: 30px;
+    border-radius: 15px;
+    /*min-height: 315px;*/
+    /* display: flex;*/
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 10px 10px 0 rgba(90, 116, 148, 0.3);
+}
+
+
+/* ---------- Tarjeta Delantera ----------*/
+
+.tarjeta .delantera {
+    padding: -100%;
+    margin-top: 20%;
+    margin-left: 20%;
+    width: 68%;
+    height: 6em;
+    background: url(../img/10.jpg);
+    background-size: cover;
+}
+
+.delantera .logo-marca {
+    text-align: right;
+    min-height: 50px;
+}
+
+.delantera .logo-marca img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    max-width: 80px;
+}
+
+.delantera .chip {
+    width: 100%;
+    max-width: 30px;
+    margin-bottom: 20px;
+    margin-top: -40px;
+}
+
+.delantera .grupo .label {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 25px;
+    margin-top: -60px;
+    margin-block-end: 70px;
+}
+
+input {
+    height: 23px;
+    width: 140px;
+    box-shadow: 2px 2px 2px 2px rgba(166, 192, 17, 0.2);
+    display: inline-block;
+    margin-block-end: 1px;
+}
+
+.delantera .grupo .numero,
+.delantera .grupo .nombre,
+.delantera .grupo .expiracion {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: -40px;
+}
+
+.delantera .flexbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}

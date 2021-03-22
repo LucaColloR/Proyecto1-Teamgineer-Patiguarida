@@ -1,31 +1,44 @@
 html {
     font-family: Verdana;
     font-size: 16px;
-    background-image: url("../img/background-equipo1.jpg");
+    color: #e1b12c;
+    background-color: rgb(59, 59, 59);
+    background: radial-gradient(circle, rgba(59, 59, 59, 1) 0%, rgba(31, 31, 31, 1) 25%, rgba(0, 0, 0, 1) 100%);
     /*color: #e1b12c #ffdd59 #718093 #7f8fa6 #353b48 #2f3640 #1e272e #f5f6fa;*/
 }
 
 
 /*Botón*/
 
-.button-equipo .btn {
-    /*todos los elementos serán iguales*/
-    background-color: #ffa502;
-    border: #333 solid 2px;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    /*para redondear*/
+.btn:active {
+    background-color: #c2961f;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.btn {
+    background-color: #606460;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
     font-size: 18px;
-    padding: 15px;
+    margin-block-end: 0px;
+    outline: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
     margin: 30px -90px;
     position: relative;
     top: 50%;
     left: 50%;
 }
 
-
-
+.btn:hover {
+    background-color: #c2961f
+}
 
 
 /*NAV*/
@@ -49,20 +62,21 @@ html {
 .equipo {
     padding: 15px;
     border-bottom: rgba(19, 18, 18, 0.7) 3px solid;
-    color: black;
+    color: #ffdd59;
 }
 
 h2 {
     padding: 30px;
     text-align: center;
-    font-size: 40px;
-    color: hsl(215, 15%, 22%);
+    font-size: 30px;
+    color: #e1b12c;
+    text-decoration: underline;
 }
 
 .text-title {
     padding: 30px;
     text-decoration: underline;
-    color: #ffdd59;
+    color: #e1b12c;
     font-size: 20px;
 }
 
@@ -70,4 +84,43 @@ h2 {
     padding: 50px;
     color: #ffdd59;
     font-size: 16px;
+}
+
+
+/*Tabla*/
+
+.tabla {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.tabla tr {
+    height: 35px;
+    text-align: center;
+}
+
+.tabla thead tr {
+    background: #e1b12c;
+    color: #fff;
+    text-align: center;
+}
+
+.tabla thead tr th {
+    width: 200px;
+    text-align: center;
+}
+
+.tabla tbody tr:nth-child(even) {
+    background: #e1b12c;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-bottom: black;
+}
+
+.tabla tbody tr td {
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    color: #e1b12c;
 }

@@ -27,12 +27,13 @@ body {
     margin-right: auto;
 }
 
-img {
+.img-deslizadores {
     background-position: center;
     flex-wrap: wrap;
     flex-direction: row;
     padding: 30px;
     width: 100%;
+    border-radius: 40px;
 }
 
 
@@ -67,7 +68,7 @@ img {
     width: auto;
     padding: 16px;
     margin-top: -22px;
-    color: rgb(17, 17, 17);
+    color: white;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -89,13 +90,14 @@ img {
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
+    color: #ffa502;
 }
 
 
 /* Caption text */
 
 .text {
-    color: #e6ff01d2;
+    color: #e1b12c;
     font-size: 15px;
     padding: 8px 12px;
     position: bottom;
