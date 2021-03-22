@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/perfil-cliente.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Perfil Cliente</title>
+
+</head>
+
+<body>
+
+    <header class="header-principal">
+
+
+        <div class="logo">
+            <nav class="nav-main">
+                <img src="img/logopag.jpg" alt="Patiguarida LOGO" class="imglogo">
+                <ul class="nav-izq">
+                    <li>
+                        <a href="index-usuario.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="servicios.html">| Servicios</a>
+                    </li>
+
+                    <li>
+                        <a href="reportes.html">| Reportes</a>
+                    </li>
+
+                    <li>
+                        <a href="administracion.html">| Administración</a>
+                    </li>
+
+                </ul>
+                <ul class="nav-der">
+                    <li>
+                        <a href="historial-proveedor.html">Historial</a>
+                    </li>
+
+                    <li>
+                        <a href="historial-cliente.html">Historial</a>
+                    </li>
+
+                    <li>
+                        <a href="perfil-proveedor.html">| Mi perfil</a>
+                    </li>
+
+                    <li>
+                        <a href="perfil-cliente.html">| Mi perfil</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html" id="btn-cerrar-sesion">| Cerrar sesión</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <hr>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <section class="perfil">
+                <img class="foto" src="https://st.depositphotos.com/1008939/2240/i/600/depositphotos_22408839-stock-photo-serious.jpg" alt="">
+            </section>
+        </section>
+
+        <section class="informacion">
+            <div class="seccionCliente">
+                <section class="btn-editar" title="Editar información">
+                    <button type="button" class="btn"><i class="fa fa-edit"></i></button>
+                </section>
+                <div>
+                    <label for="txt-nombre"> Nombre: </label>
+                    <i id="nombre-cliente"></i>
+                </div>
+                <div>
+                    <label for="txt-telefono"> Número de telefóno: </label>
+                    <i id="numero-cliente"></i>
+                </div>
+                <div>
+                    <label for="txt-identificación"> Número de identificación: </label>
+                    <i id="identificacion-cliente"></i>
+                </div>
+                <div>
+                    <label for="txt-tipoIdentificacion"> Tipo de identificación: </label>
+                    <i id="tipoID-cliente"></i>
+                </div>
+                <div>
+                    <label for="txt-correo"> Correo electrónico: </label>
+                    <i id="correo-cliente"></i>
+                </div>
+                <div>
+                    <label for="txt-genero"> Género: </label>
+                    <i id="genero-cliente"></i>
+                </div>
+                <div>
+                    <label for="txt-direccion"> Dirección: </label>
+                    <i id="direccion-cliente"></i>
+                </div>
+            </div>
+
+            <section class="seccion-mascotas">
+                <div class="btn-editar" title="Añadir mascota">
+                    <button type="button" class="btn"><i class="fa fa-plus"></i></button>
+                </div>
+                <div class="mascotas">
+                    <h2>¡Mis mascotas!</h2>
+                </div>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <a href="perfil-mascota.html"><img src="https://cdn.shopify.com/s/files/1/0740/0383/files/cute-3106473__340_2048x2048.jpg?v=1541113625"></a>
+                        <div class="text">Salem<br/></div>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="https://t2.ea.ltmcdn.com/es/images/0/9/7/img_colores_del_shiba_inu_20790_orig.jpg">
+                    <div class="text">Shiba<br/></div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="https://yt3.ggpht.com/ytc/AAUvwnh3Uru77lrw_kODYhp4B8TbdFiQI1NzVFpIoIPE3g=s900-c-k-c0x00ffffff-no-rj">
+                    <div class="text">Grumpy<br/></div>
+                </div>
+                <div class="arrows">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </section>
+            </div>
+        </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Patiguarida</h3>
+            <p>¡Encuéntranos en nuestras redes sociales!</p>
+            <ul class="socials">
+                <li><a href="https://twitter.com/home"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/#_=_"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+    <script src="js/navegacion.js"></script>
+    <script src="js/slideshow-mascotas.js"></script>
+    <script src="js/perfil.js"></script>
+
+
+</body>
+
+</html>
