@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--no son visibles/configuración de la página/metadatos-->
+    <meta charset="utf-8">
+    <!--para utilizar todos los caracteres especiales-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/deslizadores.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--<link rel="stylesheet" href="css/tabla.css">-->
+    <!--para enlazar html con la hoja de estilos css-->
+    <title>Patiguarida</title>
+</head>
+
+
+
+<body>
+    <header class="header-principal">
+
+
+        <div class="logo">
+            <nav class="nav-main">
+                <img src="img/logopag.jpg" alt="Patiguarida LOGO" class="imglogo">
+                <ul class="nav-izq">
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="servicios.html">| Servicios</a>
+                    </li>
+
+                    <li>
+                        <a href="reportes.html">| Reportes</a>
+                    </li>
+
+                    <li>
+                        <a href="administracion.html">| Administración</a>
+                    </li>
+
+                </ul>
+                <ul class="nav-der">
+                    <li>
+                        <a href="historial-proveedor.html">Historial</a>
+                    </li>
+
+                    <li>
+                        <a href="historial-cliente.html">Historial</a>
+                    </li>
+
+                    <li>
+                        <a href="perfil-proveedor.html">| Mi perfil</a>
+                    </li>
+
+                    <li>
+                        <a href="perfil-cliente.html">| Mi perfil</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html" id="btn-cerrar-sesion">| Cerrar sesión</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <hr>
+        </div>
+    </header>
+
+
+    <main>
+
+        <!--Anuncios slides-->
+
+        <section class="anuncios">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <img src="img/img-anuncio1.JPG" class="img-deslizadores">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/img-anuncio2.JPG" class="img-deslizadores">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/img-anuncio3.JPG" class="img-deslizadores">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <!-- <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>-->
+            </div>
+
+        </section>
+
+        <!--Fin anuncios slides-->
+
+        <!--Botón-->
+        <section class="separador">
+            <a href="crea-cuenta.html"><button type="button" class="btn">¡Empiece ya a cuidar de su mascota!</button></a>
+        </section>
+
+        <!--Socios estrellas-->
+        <div class="socios-estrellas">
+            <div class="title">
+                <h3>¡Conozca a nuestros socios estrellas!</h3>
+            </div>
+            <table class="tbl-socios-estrellas">
+                <tbody>
+
+                    <tr>
+                        <td class="titulo-caja">
+                            María José Morales Ochoa
+                        </td>
+                        <td class="titulo-caja">
+                            Carlos Gutiérrez Hernández
+                        </td>
+                        <td class="titulo-caja">
+                            Catalina Aguilar Fernández
+                        </td>
+                        <tr>
+                            <td class="caja-usuario-estrella-1">
+                                <img src="img/usuarioEstrella1.jpg">
+                            </td>
+                            <td class="caja-usuario-estrella-1">
+                                <img src="img/usuarioEstrella3.jpg">
+                            </td>
+                            <td class="caja-usuario-estrella-1">
+                                <img src="img/usuarioEstrella2.jpg">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="patitas">
+                                4.9/5 🐾
+                            </td>
+                            <td class="patitas">
+                                5/5 🐾
+                            </td>
+                            <td class="patitas">
+                                4.9/5 🐾
+                            </td>
+                        </tr>
+
+                </tbody>
+
+            </table>
+        </div>
+
+
+        <!--Testimonios slides-->
+        <section class="testimonios">
+            <div class="title">
+                <h3>Testimonios</h3>
+            </div>
+            <!--slides-->
+            <section class="testimonios">
+                <div class="slideshow-container">
+
+                    <div class="mySlidesDos fade">
+                        <a>¡Excelente servicio! ¡En tiempos de pandemia, servicios de este tipo son indispensable!</a>
+                        <div class="text-title">Usuario anónimo
+                        </div>
+                    </div>
+
+                    <div class="mySlidesDos fade">
+                        <a>Además de cuidar a mis perritas, Ale ha ido a la veterinaria cuando se percató que una de mis perritas estaba enferma. ¡Muchas gracias!</a>
+                        <div class="text-title">Usuario anónimo
+                        </div>
+                    </div>
+
+                    <div class="mySlidesDos fade">
+                        <a>Tener una veterinaria a estas horas de la noche ha sido una salvada. ¡La doctora María ha sido muy amable!</a>
+                        <div class="text-title">Usuario anónimo
+                        </div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlidesDos(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlidesDos(1)">&#10095;</a>
+
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                    <span class="dotDos" onclick="currentSlideDos(1)"></span>
+                    <span class="dotDos" onclick="currentSlideDos(2)"></span>
+                    <span class="dotDos" onclick="currentSlideDos(3)"></span>
+                </div>
+
+            </section>
+
+        </section>
+        <!--Fin testimonios slides-->
+
+        <!--Inicio servicios destacados/se ha podido poner un título sobre cada imagen pero no es responsive-->
+        <div class="servicios-destacados">
+            <div class="title">
+                <h3>Servicios destacados</h3>
+            </div>
+
+            <table class="tbl-servicios-destacados">
+                <tbody>
+                    <tr>
+                        <td class="titulo-caja">
+                            Paseador de perros
+                        </td>
+                        <td class="titulo-caja">
+                            Veterinaria a domicilio
+                        </td>
+                        <td class="titulo-caja">
+                            Cuidador de perros
+                        </td>
+                        <td class="titulo-caja">
+                            Hotel para perros y gatos
+                        </td>
+                        <tr>
+                            <td class="img-servicios-destacados1">
+                                <img src="img/background-paseadorDePerro.jpg">
+                            </td>
+                            <td class="img-servicios-destacados2">
+                                <img src="img/background-veterinariaADomicilio.jpg">
+                            </td>
+                            <td class="img-servicios-destacados3">
+                                <img src="img/background-cuidadorDePerros.jpg">
+                            </td>
+                            <td class="img-servicios-destacados4">
+                                <img src="img/background-hotelParaMascotas.jpg">
+                            </td>
+                        </tr>
+
+                </tbody>
+            </table>
+
+            <!--Fin servicios destacados-->
+
+            <!--Beneficios-->
+
+            <section class="beneficios">
+                <div class="beneficios-txt">
+                    <h3>Cuida tus mascotas de la mejor manera</h3>
+                    <ul>
+                        <li>&#10003 Atención personalizada</li>
+                        <li>&#10003 Todos los servicios a su diposición</li>
+                        <li>&#10003 Servicio 24/7</li>
+                        <li>&#10003 Comunicación directa con los proveedores</li>
+                    </ul>
+                </div>
+
+                <div class="beneficios-img">
+
+                </div>
+            </section>
+
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h3>Patiguarida</h3>
+            <p>¡Encuéntranos en nuestras redes sociales!</p>
+            <ul class="socials">
+                <li><a href="https://twitter.com/home"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/#_=_"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/navegacion.js"></script>
+    <script src="js/deslizadores.js"></script>
+    <script src="js/deslizadores-dos.js"></script>
+</body>
+
+</html>
