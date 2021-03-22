@@ -27,6 +27,7 @@ const mostrarOpcionesMenu = () => {
 
             break;
         case 'Proveedor':
+            opciones[1].classList.add('ocultar');
             opciones[2].classList.add('ocultar');
             opciones[3].classList.add('ocultar');
             opciones[5].classList.add('ocultar');
