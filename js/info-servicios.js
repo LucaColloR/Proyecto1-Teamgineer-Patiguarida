@@ -4,7 +4,7 @@ let listaServicios = [{
     'precio': '₡5000',
     'proveedor': 'Nuria Hernández Salas',
     'telefono': '86452349',
-    'descripcion': 'Paseo perros en Tres Ríos',
+    'descripcion': 'Paseo perros en Moravia',
 
 }, {
     'nombre': 'Veterinaria a domicilio',
