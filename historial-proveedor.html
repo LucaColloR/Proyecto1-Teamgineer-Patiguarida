@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/listas-servicios-proveedor.css">
     <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/servicios.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
+
+
+
+    <title>Servicios proveedor</title>
 </head>
 
 <body>
@@ -64,37 +67,30 @@
     </header>
 
     <main>
-        <h1>Servicios</h1>
-        <table class="tabla">
-            <tr>
-                <th>
-                    <label for="txt-filtro">Filtrar</label>
-                    <input type="text" id="txt-filtro">
-                </th>
-            </tr>
-        </table>
-
+        <h1>¡Tu lista de solicitudes de servicio!</h1>
+        <div class="filtrar">
+            <label for="txt-filtro">Solicitudes:</label>
+            <input type="text" id="txt-filtro" placeholder="Buscar">
+        </div>
         <table id="tbl-servicios" class="tabla">
             <thead>
-                <tr>
-                    <th>Nombre</th>
-                    <th>Precio</th>
-                    <th>Proveedor</th>
-                    <th>Telefono</th>
-                    <th>Descripción</th>
 
+                <tr>
+                    <th>Cliente</th>
+                    <th>Precio</th>
+                    <th>Servicio</th>
+                    <th>Teléfono</th>
+                    <th>Estado</th>
+                    <th></th>
                 </tr>
             </thead>
-
             <tbody>
 
             </tbody>
-
         </table>
-
-
-
     </main>
+    </div>
+
 
     <footer>
         <div class="footer-content">
@@ -107,11 +103,12 @@
             </ul>
         </div>
     </footer>
-    <script src="js/navegacion.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    <script src="js/info-servicios.js"></script>
-    <script src="js/servicios.js"></script>
-</body>
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+    <script src="js/navegacion.js"></script>
+    <script src="js/servicios-informacion-proveedor.js"></script>
+    <script src="js/listaServicios.js"></script>
+
+</body>
 
 </html>
