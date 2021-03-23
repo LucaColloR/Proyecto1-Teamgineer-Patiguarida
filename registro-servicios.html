@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/registro-servicios.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/like-face-registro-cliente.css">
+
+    <title>Registro</title>
+</head>
+
+<body>
+
+    <main>
+        <ul class='atras'>
+            <a class="fa fa-arrow-circle-left" href="registro-proveedor.html"></a>
+        </ul>
+        <div class='contenedor'>
+            <div class='titulo'>Registrar su servicio</div>
+            <form class='formulario'>
+                <div class='detalles-usuario'>
+                    <div class='foto'>
+                        <img class="foto-perfil" src="img/img-blanca.png" alt="">
+                        <input type="file" id="file" required>
+                        <label for="file" id="btn-actualizar">Subir foto</label>
+                    </div>
+
+
+                    <div class='input-box'>
+                        <label for="txt-nombre">Nombre del servicio:</label>
+                        <input type="text" id="txt-nombre" placeholder="">
+                    </div>
+                    <div class='input-box'>
+                        <label for="txt-precio">Precio del servicio (en colones):</label>
+                        <input type="text" id="txt-precio" placeholder="">
+                    </div>
+                    <div class='input-box'>
+                        <label for="txt-descripcion">Descripción del servicio:</label>
+                        <!--<input  type="text" id="txt-numero" placeholder="">-->
+                        <textarea name="comentarios" id="txt-descripcion" rows="20" cols="35">Describe aquí tu servicio</textarea>
+                    </div>
+
+
+                    <div class='input-box'>
+                        <div class='txt-zona-titulo'>
+                            <h3>Por favor indique su zona de trabajo</h3>
+                        </div>
+                        </br>
+                        <span id='txt-provincia'>Provincia </span>
+                        <select id="slt-Provincia">
+                        <option value="">--Seleccione una opción--</option>
+                        <option value="Provincia">San José</option>
+                        <option value="Provincia">Cartago</option>
+                        <option value="Provincia">Puntarenas</option>
+                        <option value="Provincia">Limón</option>
+                        <option value="Provincia">Alajuela</option>
+                        <option value="Provincia">Guanacaste</option>
+                        <option value="Provincia">Heredia</option>                        
+                    </select>
+                        <span id='txt-canton'>Cantón </span>
+                        <select id="slt-Canton">
+                        <option value="">--Seleccione una opción--</option>
+                        <option value="Canton">Moravia</option>
+                        <option value="Canton">Coronado</option>
+                        <option value="Canton">Escazú</option>
+                        <option value="Canton">Tibás</option>
+                    </select>
+                        <span id='txt-distrito'>Distrito </span>
+                        <select id="slt-Distrito">
+                        <option value="">--Seleccione una opción--</option>
+                        <option value="Distrito">La Trinidad</option>
+                        <option value="Distrito">San Vicente</option>
+                        <option value="Distrito">San Jeronimo</option>
+
+                    </select>
+                    </div>
+
+                </div>
+                <div class='seccion-boton'>
+                    <input type='button' id='btn-crear' value='Registrarse'>
+                </div>
+            </form>
+
+            <div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </main>
+
+    <!-- <footer>
+        <div class="footer-content">
+            <h3>Patiguarida</h3>
+            <p>¡Encuéntranos en nuestras redes sociales!</p>
+            <ul class="socials">
+                <li><a href="https://twitter.com/home"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/#_=_"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>-->
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="js/registrar-servicios.js"></script>
+    <script src="js/like-face-registro-cliente.js"></script>
+</body>
+
+
+</html>
