@@ -123,6 +123,16 @@ select {
     text-decoration: none;
     justify-content: center;
     align-items: center;
+    padding: 30px;
+}
+
+.seccion-boton-dos {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
 }
 
 #btn-crear:active {
@@ -147,7 +157,7 @@ select {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .foto-perfil {
@@ -166,4 +176,35 @@ select {
     color: #e1b12c;
     font-size: 18px;
     text-decoration: none;
+    margin-top: 150px;
+}
+
+.btn:active {
+    background-color: #c2961f;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.btn {
+    background-color: #606460;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    margin-block-end: 0px;
+    outline: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 30px -160px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+
+.btn:hover {
+    background-color: #c2961f
 }
