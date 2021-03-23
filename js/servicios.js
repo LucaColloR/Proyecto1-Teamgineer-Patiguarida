@@ -10,10 +10,11 @@ const mostrarTabla = () => {
         if (servicio.nombre.toLowerCase().includes(filtro) || servicio.proveedor.toLowerCase().includes(filtro)) {
             let fila = tabla.insertRow();
             fila.insertCell().innerHTML = servicio.nombre; //Se crea un cell por cada nombre de usuario
+            fila.insertCell().innerHTML = servicio.precio; //Se crea un cell por cada tipo de usuario
             fila.insertCell().innerHTML = servicio.proveedor; //Se crea un cell por cada correo de usuario
             fila.insertCell().innerHTML = servicio.telefono; //Se crea un cell por cada nacimiento de usuario
             fila.insertCell().innerHTML = servicio.descripcion; //Se crea un cell por cada sexo de usuario
-            fila.insertCell().innerHTML = servicio.precio; //Se crea un cell por cada tipo de usuario
+
 
             let celdaAcciones = fila.insertCell();
 

@@ -14,9 +14,9 @@ const mostrarTabla = () => {
         ) {
             let fila = tabla.insertRow();
             fila.insertCell().innerHTML = servicios.nombre;
-            fila.insertCell().innerHTML = servicios.cantidad;
             fila.insertCell().innerHTML = servicios.precio;
             fila.insertCell().innerHTML = servicios.servicio;
+            fila.insertCell().innerHTML = servicios.telefono;
 
             // Guarda la celda con el estado para luego ser enviada a otra función
             let estado = fila.insertCell();

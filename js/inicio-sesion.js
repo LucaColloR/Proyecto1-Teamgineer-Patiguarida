@@ -1,22 +1,22 @@
 'use strict';
 let listaUsuarios = [{
         'correo': 'admin@admin.com',
-        'nombre': 'Raúl Pérez',
+        'nombre': 'Saúl López Obregon',
         'nacimiento': '09-20-1973',
         'sexo': 'Masculino',
         'contrasenna': '123Abc!',
         'tipo': 'Administrador'
     }, {
-        'correo': 'amanda@gmail.com',
-        'nombre': 'Amanda Víquez',
+        'correo': 'nuria@gmail.com',
+        'nombre': 'Nuria Hernández Salas',
         'nacimiento': '03-11-1991',
         'sexo': 'Femenino',
         'contrasenna': '123Abc!',
         'tipo': 'Proveedor'
     },
     {
-        'correo': 'pablo@gmail.com',
-        'nombre': 'Pablo Monestel',
+        'correo': 'alan@gmail.com',
+        'nombre': 'Alan Campos Perez',
         'nacimiento': '10-12-1987',
         'sexo': 'Masculino',
         'contrasenna': '123Abc!',
@@ -24,7 +24,7 @@ let listaUsuarios = [{
     },
     {
         'correo': 'jose@gmail.com',
-        'nombre': 'José Ramírez',
+        'nombre': 'José Ramírez Ureña',
         'nacimiento': '03-11-1990',
         'sexo': 'Masculino',
         'contrasenna': '123Abc!',
