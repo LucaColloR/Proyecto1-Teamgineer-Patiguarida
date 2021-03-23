@@ -29,7 +29,10 @@ let usuario;
     window.location.href = 'inicio-sesion.html';
 }*/
 
-
+// * Rotacion de la tarjeta
+tarjeta.addEventListener('click', () => {
+    tarjeta.classList.toggle('active');
+});
 const mostrarTabla = () => {
     listaTarjeta.forEach(tarjeta => {
 
@@ -42,8 +45,12 @@ const mostrarTabla = () => {
         fila.insertCell().innerHTML = tarjeta.anno;
         fila.insertCell().innerHTML = tarjeta.usuario;
         let celdaAcciones = fila.insertCell();
-        let btnUsar = document.createElement('button');
-        btnUsar.innerText = 'Utilizar';
+        let btnUsar = document.createElement('usa');
+        btnUsar.href = '#';
+
+        btnUsar.classList.add('far');
+        btnUsar.classList.add('fa-check-circle');
+        //btnUsar.innerText = 'Utilizar';
         btnUsar.type = 'button';
         btnUsar.addEventListener('click', () => {
             Swal.fire({
@@ -54,8 +61,11 @@ const mostrarTabla = () => {
             })
         });
 
-        let botonEliminar = document.createElement('button');
-        botonEliminar.innerText = 'Eliminar';
+        let botonEliminar = document.createElement('eli');
+        // botonEliminar.innerText = 'Eliminar';
+        botonEliminar.href = '#';
+        botonEliminar.classList.add('fas');
+        botonEliminar.classList.add('fa-trash-alt');
         botonEliminar.type = 'button';
         botonEliminar.addEventListener('click', () => {
             Swal.fire({
@@ -73,6 +83,8 @@ const mostrarTabla = () => {
                         'Tarjeta eliminada',
                         'success'
                     )
+                    fila.classList.add('ocultar');
+                    celdaAcciones.classList.add('ocultar');
                 }
             })
         });
@@ -90,6 +102,7 @@ const mostrarTabla = () => {
 /*
 const imagenFactura = () => {
     let error = false;
+
     if (inputNomServicio.value == '') {
         logoServicio.innerHTML = 'no estoy';
     }

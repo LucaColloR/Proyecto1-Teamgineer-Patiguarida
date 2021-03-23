@@ -40,12 +40,13 @@ const mostrarTabla = () => {
                 }).then((result) => {
                     if (result.isConfirmed) {
                         Swal.fire({
+                                'icon': 'success',
                                 'title': 'Propuesta de servicio enviada al proveedor.',
                                 'text': ' Por favor espere su respuesta...',
-                                'imageUrl': 'img/sticker1-success.jpg',
+                                /*'imageUrl': 'img/sticker1-success.jpg',
                                 'imageWidth': 400,
                                 'imageHeight': 200,
-                                'imageAlt': 'Custom image'
+                                'imageAlt': 'Custom image'*/
                             }
                             /*'',
                             'Propuesta de servicio enviada al proveedor. Por favor espere su respuesta. ',
