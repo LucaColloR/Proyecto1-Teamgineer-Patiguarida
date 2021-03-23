@@ -8,11 +8,10 @@ body {
 
 .formularioPago a {
     color: #ffb259;
-    ;
 }
 
 h6 {
-    color: #AAA;
+    color: white;
     margin-left: 10%;
     margin-top: 80px;
     font-family: Verdana;
@@ -32,23 +31,27 @@ h6 {
 
 .formularioPago h1 {
     font-size: 22px;
-    text-shadow: 2px 2px 0 #AAA;
+    text-shadow: 2px 2px 0 rgb(46, 44, 44);
     margin-block-end: 20px;
+    color: #fff;
 }
 
 .formularioPago h2 {
+    color: white;
     margin-top: 12px;
     font-size: 19px;
     margin-block-end: 10px;
 }
 
 .formularioPago h3 {
+    color: white;
     margin-top: 15px;
     font-size: 19px;
     margin-block-end: 10px;
 }
 
 .formularioPago h4 {
+    color: white;
     margin-top: 15px;
     margin-left: 100px;
     margin-block-end: 4px;
@@ -59,22 +62,25 @@ h6 {
     margin-top: 25px;
     font-size: 19px;
     margin-block-end: 10px;
+    color: white;
 }
 
 .formularioPago p1 {
     text-shadow: 1px 1px 0 rgb(182, 178, 178);
+    color: #e1b12c;
 }
 
 .formularioPago p {
     text-shadow: 1px 1px 0 rgb(182, 178, 178);
     margin-block-end: 5px;
+    color: #e1b12c;
 }
 
 .formularioPago label {
     display: table-cell;
     font-size: 22px;
     height: 10px;
-    min-width: 170px;
+    /*min-width: 170px;*/
 }
 
 .formularioPago select {
@@ -116,12 +122,12 @@ h6 {
 .factura {
     display: flex;
     min-height: 800px;
-    font-family: color black;
+    font-family: verdana;
     color: rgb(8, 6, 6);
     padding: 0px 50px 0px 50px;
-    width: 60%;
-    margin-left: 700px;
-    margin-top: -14.8%;
+    width: 40%;
+    margin-left: 400px;
+    margin-top: -30%;
     margin-block-end: 1emx;
 }
 
@@ -140,10 +146,23 @@ h6 {
     box-shadow: 0 0 10px 5px;
 }
 
+.factura .factura-info {
+    margin-top: 5em;
+    margin-left: 2em;
+}
+
+.factura h3 {
+    color: #fff;
+    margin-left: 15em;
+    font-size: 20px;
+    position: relative;
+    transform: translate(2, 8);
+}
+
 .factura input,
 label {
     margin-top: 40%;
-    color: rgb(19, 14, 14);
+    color: #fff;
     align-items: center;
     display: inherit;
 }
@@ -154,6 +173,9 @@ label {
     margin-top: 30px;
     margin-left: 15%;
 }
+
+
+/*----------------------------------------------------------*/
 
 .tarjeta {
     width: 500%;
@@ -176,7 +198,7 @@ label {
     padding: 30px;
     border-radius: 15px;
     /*min-height: 315px;*/
-    /* display: flex;*/
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     box-shadow: 0 10px 10px 0 rgba(90, 116, 148, 0.3);
@@ -243,4 +265,44 @@ input {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+}
+
+#eli {
+    padding: 5%;
+    font-size: 20px;
+}
+
+
+/*Tabla*/
+
+.tabla {
+    margin-top: -20%;
+}
+
+.tabla tr {
+    height: 30px;
+}
+
+.tabla thead tr {
+    background: #34495f;
+    color: #fff;
+}
+
+.tabla thead tr th {
+    width: 5px;
+    text-align: center;
+}
+
+.tabla tbody tr:nth-child(even) {
+    background: #95a5a6;
+    color: #fff;
+}
+
+.tabla tbody tr td {
+    width: 87px;
+    text-align: center;
+}
+
+.ocultar {
+    display: none;
 }

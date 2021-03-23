@@ -1,0 +1,64 @@
+.formulario {
+    padding: 30px;
+    width: 50%;
+    /*para que ocupe el 50% de la página*/
+}
+
+.formulario h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.formulario div {
+    margin-bottom: 20px;
+}
+
+.formulario label {
+    display: inline-block;
+    /*para elementos en línea,para alinear*/
+    font-size: 22px;
+    width: 190px;
+}
+
+.formulario input {
+    height: 30px;
+    width: 200px;
+}
+
+.formulario select {
+    height: 30px;
+    width: 210px;
+}
+
+
+/*Btn*/
+
+.btn:active {
+    background-color: #c2961f;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.btn {
+    background-color: #606460;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    margin-block-end: 0px;
+    outline: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 30px -160px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+
+.btn:hover {
+    background-color: #c2961f
+}

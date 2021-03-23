@@ -1,3 +1,134 @@
+/*body {
+    background-size: 5%;
+}
+
+.error {
+    border: 2px solid #fbc531;
+}
+
+.ocultar {
+    display: none;
+}
+
+.h1 {
+    font-family: Verdana;
+    font-size: 2px;
+    align-items: center;
+}
+
+.maincontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #4b4b4b;
+}
+
+.catlogin {
+    width: 550px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
+}
+
+.animcon {
+    background-color: rgb(236, 231, 231);
+    overflow: hidden;
+    margin-top: 20px;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    background-image: url('img/hands2.gif');
+    background-size: 90% 85%;
+    background-repeat: no-repeat;
+    background-position: right;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
+    display: flex;
+    align-items: left -2px;
+    flex-direction: column;
+}
+
+.animcon img {
+    margin-top: 110%;
+    height: 170px;
+    width: 170px;
+    transition: 1s;
+}
+
+.formcon a {
+    margin-left: 25%;
+}
+
+.formcon {
+    margin-top: 20px;
+}
+
+.formcon .h3 {
+    margin-top: -5%;
+    font-size: 15px;
+    margin-left: 1%;
+    padding: 30px;
+}
+
+.formcon select {
+    height: 10%;
+    margin-left: 25%;
+}
+
+input {
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    color: #5a5449;
+    text-indent: 15px;
+    font-size: 100%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
+    outline: none;
+}
+
+input::placeholder {
+    color: #5a5449;
+    font-size: 100%;
+    font-weight: lighter;
+    text-indent: 15px;
+}
+
+.btn:active {
+    background-color: #c2961f;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.btn {
+    background-color: #606460;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 80px;
+    outline: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #c2961f
+}*/
+
+
+/*---------------------------------------------*/
+
 body {
     /*   background-size: 5%;*/
     background: radial-gradient(circle, rgba(59, 59, 59, 1) 0%, rgba(31, 31, 31, 1) 40%, rgba(0, 0, 0, 1) 100%);
