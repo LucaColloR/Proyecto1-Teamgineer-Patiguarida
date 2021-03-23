@@ -10,25 +10,22 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/plataforma-pago.css">
-    <link rel="stylesheet" href="css/tabla-registroPago.css">
 
 </head>
 
 <body>
-    <div class="logo">
-        <nav class="nav-main">
-            <img src="img/logopag.jpg" alt="Patiguarida LOGO" class="imglogo">
-            <ul class="nav-izq">
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
-
-            </ul>
+    <header class="header-principal">
 
 
-        </nav>
+        <div class="logo">
+            <nav class="nav-main">
+                <img src="img/logopag.jpg" alt="Patiguarida LOGO" class="imglogo">
+                <ul class="nav-izq">
+                    <li>
+                        <a href="index-usuario.html">Inicio</a>
+                    </li>
 
-    </div>
+        </div>
     </header>
 
     <div class="contenedor">
@@ -60,22 +57,22 @@
             <h6> Mis métodos de pago:</h6>
             <!--Creacion de factura -->
             <form action="" id="factura" class="factura">
-
-                <div class="logo-servicio" id="logo-servicio">
-                </div>
-                <div class="factura-info">
-                    <label for="nombreServicio">Nombre de servicio:</label>
-                    <input type="text" id="nombreServicio" maxlength="19" disabled placeholder="Nombre de servicio:">
-                </div>
-                <div class="factura-info">
-                    <label for="txt-DescripcionServicio">Descripción de servicio:</label>
-                    <input type="text" id="txt-DescripcionServicio" maxlength="19" disabled placeholder="Descripción:">
-                </div>
-                <div class="factura-info">
-                    <label for="txt-precio">Precio del servicio:</label>
-                    <input type="number" id="txt-precio" disabled placeholder="Descripción:">
-                </div>
-
+                <!-- <table>
+                    <div class="logo-servicio" id="logo-servicio">
+                    </div>
+                    <div class="factura-info">
+                        <label for="nombreServicio">Nombre de servicio:</label>
+                        <input type="text" id="nombreServicio" maxlength="19" disabled placeholder="Nombre de servicio:">
+                    </div>
+                    <div class="factura-info">
+                        <label for="txt-DescripcionServicio">Descripción de servicio:</label>
+                        <input type="text" id="txt-DescripcionServicio" maxlength="19" disabled placeholder="Descripción:">
+                    </div>
+                    <div class="factura-info">
+                        <label for="txt-precio">Precio del servicio:</label>
+                        <input type="number" id="txt-precio" disabled placeholder="Descripción:">
+                    </div>
+                </table>-->
 
             </form>
 
@@ -97,26 +94,17 @@
 
             </form>
 
-            <!-- Pie de pagina -->
-
 
 
         </main>
+        <!-- Pie de pagina -->
 
-        <footer>
-            <div class="footer-content">
-                <h3>Patiguarida</h3>
-                <p>¡Encuéntranos en nuestras redes sociales!</p>
-                <ul class="socials">
-                    <li><a href="https://twitter.com/home"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://www.facebook.com/#_=_"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
-                </ul>
-            </div>
-        </footer>
 </body>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
 <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 <script src="js/listar-metodos-pago.js"></script>
+
+
 
 </html>
