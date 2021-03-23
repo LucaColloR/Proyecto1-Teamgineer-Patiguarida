@@ -13,6 +13,7 @@ footer {
 
 html {
     height: 100%;
+    font-family: Verdana;
 }
 
 body {
@@ -71,6 +72,7 @@ form .detalles-usuario .input-box {
 
 .detalles-usuario .input-box .txt-zona-titulo {
     font-weight: 500;
+    font-size: 20px;
 }
 
 .detalles-usuario .input-box input {
@@ -159,17 +161,17 @@ select {
 
 .foto {
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .foto-perfil {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
-    width: 200px;
+    /*height: 200px;
+    width: 200px;*/
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
     border-top-left-radius: 50%;
