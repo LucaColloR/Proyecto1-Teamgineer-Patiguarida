@@ -7,10 +7,11 @@
     <!--para utilizar todos los caracteres especiales-->
     <meta name="viewport" content="width=device-width, initial-scale=1.8">
     <link rel="stylesheet" href="css/reset.css">
+
     <link rel="stylesheet" href="css/index-equipo.css">
-    <link rel="stylesheet" href="css/general.css">
+
     <link rel="stylesheet" href="css/deslizadores.css">
-    <link rel="stylesheet" href="css/tabla.css">
+
     <!--para enlazar html con la hoja de estilos css-->
     <title>Patiguarida</title>
 </head>
@@ -18,45 +19,116 @@
 
 
 <body>
-    <header class="header-equipo">
-        <img src="img/logo-equipo.jpeg">
-        <ul>
-            <li>Teamginner</li>
-        </ul>
+
+    <header class="header-principal">
+
+
+        <div class="logo">
+            <nav class="nav-main">
+                <img src="img/logo-equipo.jpeg" alt="Patiguarida LOGO" class="imglogo">
+                <ul class="nav-izq">
+                    <li>
+                        <a href="#mision-vision">Misión y visión</a>
+                    </li>
+                    <li>
+                        <a href="#valores">Valores</a>
+                    </li>
+                    <li>
+                        <a href="#equipo">Integrantes</a>
+                    </li>
+                    <li>
+                        <a href="#reglas">Reglamento</a>
+                    </li>
+                </ul>
+            </nav>
+            <hr>
+        </div>
     </header>
 
 
+
+
     <main>
-        <section class="mision">
-            <h2>
-                Nuestra misión
-            </h2>
-            <p>Aportar una solución tecnológica para innovar y mejorar el servicio de todo tipo de empresas.</p>
+        <div class="mision-vision">
+            <h1>Misión y visión</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <td>
+                            <h2>
+                                Nuestra misión
+                            </h2>
+                        </td>
+                        <td>
+                            <h2>
+                                Nuestra visión
+                            </h2>
+                        </td>
+                    </tr>
 
-        </section>
-        <section class="vision">
-            <h2>
-                Nuestra visión
-            </h2>
-            <p>Ser una empresa competente y actualizada dentro del mercado de desarrollo de software y web.</p>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <section id="mision" class="mision">
+                                <p>Aportar una solución tecnológica para innovar y mejorar el servicio de todo tipo de empresas.</p>
+                            </section>
+                        </td>
+                        <td>
+                            <section class="vision">
+                                <p>Ser una empresa competente y actualizada dentro del mercado de desarrollo de software y web.</p>
+                            </section>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-        </section>
-        <section class="valores">
+        <section id="valores" class="valores">
             <h2>
                 Valores
             </h2>
-            <p>Responsabilidad: Cumplir estrictamente con las fechas establecidas para las entregas. </br>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            Responsabilidad: Cumplir estrictamente con las fechas establecidas para las entregas.
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            Honestidad: Reconocer nuestras debilidades para detectar las áreas en las cuales podemos mejorar.
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            Orientación al cliente: Suplir las demandas de nuestros clientes con los más altos estándares de calidad.
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            Puntualidad: Entregar los avances del desarrollo del proyecto a tiempo para cumplir con nuestros estrictos estándares de disciplina.
+                        </td>
+
+                    </tr>
+                </tbody>
+            </table>
+            <p>
                 </br>
-                Honestidad: Reconocer nuestras debilidades para detectar las áreas en las cuales podemos mejorar.</br>
                 </br>
-                Orientación al cliente: Suplir las demandas de nuestros clientes con los más altos estándares de calidad. </br>
                 </br>
-                Puntualidad: Entregar los avances del desarrollo del proyecto a tiempo para cumplir con nuestros estrictos estándares de disciplina.</p>
+                </br>
+                </br>
+                </br>
+            </p>
 
         </section>
 
         <!--deslizadores-->
-        <section class="equipo">
+        <section id="equipo" class="equipo">
             <h2>
                 Integrantes del grupo
             </h2>
@@ -67,14 +139,6 @@
                     <div class="text-title">Lizbeth Montero Ramirez<br/> Coordinadora general</div>
                     <div class="text">Fortalezas y debilidades: <br/>1-Disciplinada </br>
                         2-Un poco negativa
-                    </div>
-                </div>
-
-                <div class="mySlides fade">
-                    <img src="img/img-perfil-vacio.jpg" class="img-deslizadores">
-                    <div class="text-title">Michael Porras Brenes<br/> Coordinador de Desarrollo</div>
-                    <div class="text">Fortalezas y debilidades: <br/>1-Enfocado, puntual y responsable </br>
-                        2-Negativo y rencoroso
                     </div>
                 </div>
 
@@ -124,7 +188,7 @@
                 <span class="dot" onclick="currentSlide(3)"></span>
                 <span class="dot" onclick="currentSlide(4)"></span>
                 <span class="dot" onclick="currentSlide(5)"></span>
-                <span class="dot" onclick="currentSlide(6)"></span>
+
             </div>
 
         </section>
@@ -135,7 +199,7 @@
 
 
         <!--reglamento del equipo-->
-        <section>
+        <section id="reglas">
             <h2>
                 Reglamento del equipo
             </h2>
