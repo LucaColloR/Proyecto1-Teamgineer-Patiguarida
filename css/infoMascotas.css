@@ -1,0 +1,52 @@
+.tabla {
+    text-align: center;
+    margin-top: 30px;
+    max-width: 100%;
+    margin-left: 360px;
+    margin-right: 90px;
+}
+
+h1 {
+    color: #ffdd59;
+    font-size: 26px;
+    text-align: center;
+    padding: 10px;
+}
+
+.tabla tr {
+    height: 35px;
+}
+
+.tabla thead tr {
+    background: #e1b12c;
+    color: #f5f6fa;
+}
+
+.tabla thead tr th {
+    padding-block: 10px;
+    width: 280px;
+    text-align: center;
+}
+
+.tabla tbody tr {
+    border-bottom: 2px solid #e1b12c;
+}
+
+.tabla tbody tr td {
+    padding: 10px 0;
+    color: #f5f6fa;
+    background: #5a5a5a;
+    width: 280px;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+    padding: 5px;
+}
+
+.volver {
+    color: #e1b12c;
+    font-size: 18px;
+    text-decoration: none;
+}

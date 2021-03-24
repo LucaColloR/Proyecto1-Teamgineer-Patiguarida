@@ -11,22 +11,26 @@ body {
 }
 
 h6 {
-    color: white;
-    margin-left: 10%;
-    margin-top: 80px;
+    color: #ffdd59;
+    text-align: center;
+    padding: 10px;
+    padding-top: 3%;
+    padding-bottom: 1%;
     font-family: Verdana;
     font-size: 23px;
     text-shadow: 2px 2px 0px #606460;
 }
 
 .formularioPago {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     font-family: Verdana;
     font-size: 16px;
-    position: relative;
-    margin-top: 2em;
-    margin-left: 50px;
-    width: 550px;
-    height: 450px;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .formularioPago h1 {
@@ -117,69 +121,12 @@ h6 {
 }
 
 
-/*festilos de factura*/
-
-.factura {
-    display: flex;
-    min-height: 800px;
-    font-family: verdana;
-    color: rgb(8, 6, 6);
-    padding: 0px 50px 0px 50px;
-    width: 40%;
-    margin-left: 400px;
-    margin-top: -30%;
-    margin-block-end: 1emx;
-}
-
-.factura .logo-servicio {
-    text-align: right;
-    min-height: 70px;
-}
-
-.factura .logo-servicio img {
-    width: 70%;
-    height: 24%;
-    object-fit: cover;
-    max-width: 500px;
-    border-radius: 20%;
-    margin-block-start: 30%;
-    box-shadow: 0 0 10px 5px;
-}
-
-.factura .factura-info {
-    margin-top: 5em;
-    margin-left: 2em;
-}
-
-.factura h3 {
-    color: #fff;
-    margin-left: 15em;
-    font-size: 20px;
-    position: relative;
-    transform: translate(2, 8);
-}
-
-.factura input,
-label {
-    margin-top: 40%;
-    color: #fff;
-    align-items: center;
-    display: inherit;
-}
-
-.lista p {
-    font-family: Verdana;
-    font-size: 18px;
-    margin-top: 30px;
-    margin-left: 15%;
-}
-
-
-/*----------------------------------------------------------*/
+/*Sección tarjeta*/
 
 .tarjeta {
-    width: 500%;
-    max-width: 550px;
+    height: 10em;
+    width: 550%;
+    max-width: 650px;
     position: relative;
     color: #fff;
     transition: .3s ease all;
@@ -188,6 +135,7 @@ label {
     cursor: pointer;
     z-index: 2;
     margin-top: -0%;
+    margin-left: 27%;
 }
 
 .tarjeta.active {
@@ -195,7 +143,7 @@ label {
 }
 
 .tarjeta>div {
-    padding: 30px;
+    padding: 35px;
     border-radius: 15px;
     /*min-height: 315px;*/
     display: flex;
@@ -212,7 +160,6 @@ label {
     margin-top: 20%;
     margin-left: 20%;
     width: 68%;
-    height: 6em;
     background: url(../img/10.jpg);
     background-size: cover;
 }
@@ -267,7 +214,7 @@ input {
     margin-top: 20px;
 }
 
-#eli {
+main eli {
     padding: 5%;
     font-size: 20px;
 }
@@ -276,7 +223,12 @@ input {
 /*Tabla*/
 
 .tabla {
-    margin-top: -20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
 }
 
 .tabla tr {
@@ -284,25 +236,38 @@ input {
 }
 
 .tabla thead tr {
-    background: #34495f;
-    color: #fff;
+    background: #e1b12c;
+    color: #f5f6fa;
 }
 
 .tabla thead tr th {
-    width: 5px;
+    padding-block: 10px;
+    width: 152px;
     text-align: center;
 }
 
-.tabla tbody tr:nth-child(even) {
-    background: #95a5a6;
-    color: #fff;
+.tabla tbody tr {
+    border-bottom: 2px solid #e1b12c;
 }
 
 .tabla tbody tr td {
-    width: 87px;
+    color: #f5f6fa;
+    background: #5a5a5a;
+    padding-block: 10px 0px;
+    width: 150px;
     text-align: center;
 }
 
 .ocultar {
     display: none;
+}
+
+.filtrar {
+    color: #f5f6fa;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14.5%;
+    padding-bottom: 10px;
 }

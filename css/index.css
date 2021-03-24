@@ -103,12 +103,14 @@
         
         .testimonios {
             padding: 30px;
+            border-radius: 20px;
         }
         
         .mySlidesDos {
             background: rgb(59, 59, 59);
             background: radial-gradient(circle, rgba(59, 59, 59, 1) 0%, rgba(31, 31, 31, 1) 25%, rgba(0, 0, 0, 1) 100%);
             padding: 30px;
+            border-radius: 20px;
         }
         /*Testimonios*/
         /*Texto de cada imagen de los deslizadores*/

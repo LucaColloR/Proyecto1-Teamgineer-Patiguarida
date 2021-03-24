@@ -1,0 +1,207 @@
+.flotar-izq {
+    float: left;
+}
+
+.btn-historial {
+    text-align: center;
+    display: flow-root;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: gray;
+    border-radius: 10px;
+    border: 2px solid #e6e6e6;
+}
+
+.btn-historial:hover {
+    color: darkgoldenrod;
+    background-color: #fff;
+}
+
+.btn-proveedores {
+    text-align: center;
+    display: flow-root;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: gray;
+    border-radius: 10px;
+    border: 2px solid #e6e6e6;
+}
+
+.btn-proveedores:hover {
+    color: darkgoldenrod;
+    background-color: #fff;
+}
+
+.btn-dueños {
+    text-align: center;
+    display: flow-root;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: gray;
+    border-radius: 10px;
+    border: 2px solid #e6e6e6;
+}
+
+.btn-dueños:hover {
+    color: darkgoldenrod;
+    background-color: #fff;
+}
+
+.btn-mascotas {
+    text-align: center;
+    display: flow-root;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: gray;
+    border-radius: 10px;
+    border: 2px solid #e6e6e6;
+}
+
+.btn-mascotas:hover {
+    color: darkgoldenrod;
+    background-color: #fff;
+}
+
+.btn-solicitudes {
+    text-align: center;
+    display: flow-root;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: gray;
+    border-radius: 10px;
+    border: 2px solid #e6e6e6;
+}
+
+.btn-solicitudes:hover {
+    color: darkgoldenrod;
+    background-color: #fff;
+}
+
+.btn-denuncias {
+    text-align: center;
+    display: flow-root;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: gray;
+    border-radius: 10px;
+    border: 2px solid #e6e6e6;
+}
+
+.btn-denuncias:hover {
+    color: darkgoldenrod;
+    background-color: #fff;
+}
+
+.btn-calificados {
+    text-align: center;
+    display: flow-root;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: gray;
+    border-radius: 10px;
+    border: 2px solid #e6e6e6;
+}
+
+.btn-calificados:hover {
+    color: darkgoldenrod;
+    background-color: #fff;
+}
+
+.btn-tipo-mascota {
+    text-align: center;
+    display: flow-root;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: gray;
+    border-radius: 10px;
+    border: 2px solid #e6e6e6;
+}
+
+.btn-tipo-mascota:hover {
+    color: darkgoldenrod;
+    background-color: #fff;
+}
+
+.btn-razas {
+    text-align: center;
+    display: flow-root;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: gray;
+    border-radius: 10px;
+    border: 2px solid #e6e6e6;
+}
+
+.btn-razas:hover {
+    color: darkgoldenrod;
+    background-color: #fff;
+}
+
+.btn-padecimientos {
+    text-align: center;
+    display: flow-root;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: gray;
+    border-radius: 10px;
+    border: 2px solid #e6e6e6;
+}
+
+.btn-padecimientos:hover {
+    color: darkgoldenrod;
+    background-color: #fff;
+}
+
+.btn-vacunas {
+    text-align: center;
+    display: flow-root;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: gray;
+    border-radius: 10px;
+    border: 2px solid #e6e6e6;
+}
+
+.btn-vacunas:hover {
+    color: darkgoldenrod;
+    background-color: #fff;
+}
+
+.btn-tipo-servicios {
+    text-align: center;
+    display: flow-root;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: gray;
+    border-radius: 10px;
+    border: 2px solid #e6e6e6;
+}
+
+.btn-tipo-servicios:hover {
+    color: darkgoldenrod;
+    background-color: #fff;
+}

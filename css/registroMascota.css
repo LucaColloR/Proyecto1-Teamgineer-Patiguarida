@@ -1,58 +1,45 @@
-/* hace el recuadro de fondo*/
+footer {
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'verdana';
+}
+
+html {
+    height: 100%;
+}
 
 body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    padding: 10px;
     background: radial-gradient(circle, rgba(59, 59, 59, 1) 0%, rgba(31, 31, 31, 1) 40%, rgba(0, 0, 0, 1) 100%);
 }
 
 .contenedor {
-    margin-top: 10%;
+    margin-top: 20px;
     max-width: 700px;
-    margin-left: 30%;
     width: 100%;
-    height: 47em;
-    background: #fff;
+    background: rgba(245, 246, 250, 0.9);
     padding: 25px 30px;
     border-radius: 5px;
 }
 
-.formulario div {
-    margin-bottom: 20px;
-}
-
-.formulario label {
-    display: inline-block;
-    font-size: 22px;
-    min-width: 170px;
-}
-
-.formulario input {
-    height: 33px;
-    width: 200px;
-    margin-top: 10px;
-    margin-left: 10%;
-}
-
-.formulario textarea {
-    height: 30px;
-    width: 206px;
-    margin-left: 35%;
-}
-
-.formulario select {
-    height: 45px;
-    width: 206px;
-    margin-left: 35%;
-    font-size: 15px;
-}
-
-h1 {
-    font-family: Verdana;
-    font-size: 18px;
-    font-weight: 300px;
+.contenedor .titulo {
+    font-size: 25px;
+    font-weight: 500;
     position: relative;
 }
 
-h1::before {
+.contenedor .titulo::before {
     content: '';
     position: absolute;
     left: 0;
@@ -62,38 +49,132 @@ h1::before {
     background: linear-gradient(135deg, #ffdd59, white);
 }
 
-.titulo {
-    font-family: Verdana;
-    font-size: 18px;
-    margin-top: 20%;
-    text-align: center;
-    font-weight: 200;
+.contenedor form .detalles-mascota {
+    /*display: flex;
+    flex-wrap: wrap;*/
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
 }
 
-.btn:active {
+form .detalles-mascota .input-box {
+    margin-bottom: 15px;
+    width: calc(100%/2 - 20px);
+}
+
+.detalles-mascota .input-box span {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.detalles-mascota .input-box textarea {
+    width: 300px;
+    font-size: 15px;
+    height: 45px;
+    margin-block-end: 3%;
+}
+
+.detalles-mascota .input-box input {
+    height: 45px;
+    width: 283px;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    margin-block-end: 5%;
+}
+
+select {
+    height: 60px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    margin-block-end: 5%;
+}
+
+#slt-vacunas {
+    margin-block-end: 10%;
+}
+
+.formulario label span {
+    display: inline-block;
+    font-size: 18px;
+    min-width: 190px;
+}
+
+.formulario input {
+    height: 30px;
+    width: 200px;
+    margin-block-end: 2%;
+}
+
+.seccion-boton {
+    /*display: flex;
+    text-align: center;*/
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-registrarM:active {
     background-color: #c2961f;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
 
-.btn {
+#btn-registrarM {
     background-color: #606460;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
     color: #fff;
     cursor: pointer;
-    display: inline-block;
+    /*display: inline-block;*/
     font-size: 18px;
-    margin-block-end: 20px;
-    margin-left: 35%;
-    margin-top: -300px;
     outline: none;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
+    display: flex;
+    justify-content: left;
+    align-items: left;
 }
 
-.btn:hover {
+#btn-registrarM:hover {
     background-color: #c2961f
+}
+
+.error {
+    border: 2px solid #ffdd59;
+}
+
+.ocultar {
+    display: none;
+}
+
+.foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.foto-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.atras a {
+    color: #e1b12c;
+    font-size: 18px;
+    text-decoration: none;
 }

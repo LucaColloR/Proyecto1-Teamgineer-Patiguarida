@@ -1,9 +1,11 @@
-/*footer {
-    position: sticky;
-}*/
+footer {
+    margin-top: 150px;
+}
 
 html {
-    height: 100%;
+    font-family: Verdana;
+    font-size: 16px;
+    color: #e1b12c;
 }
 
 body {
@@ -19,54 +21,19 @@ body {
     padding-bottom: 20px;
 }
 
-.tabla {
-    border-collapse: collapse;
-    font-size: 0.9em;
-    max-width: 100%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    margin-left: 90px;
-    margin-right: 90px;
-    margin-bottom: 156px;
-    margin-top: 48px;
-}
-
 h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
     color: white;
     text-align: center;
 }
 
-.filtrar {
-    color: white;
+.txt-filtro {
+    align-items: center;
+    text-align: center;
+    color: #e1b12c;
     width: 400px;
-    text-align: center;
-}
-
-.tabla tr {
-    height: 35px;
-}
-
-.tabla thead tr {
-    background-color: #ffdd59;
-    color: black;
-    text-align: left;
-}
-
-.tabla thead tr th {
-    padding-block: 10px;
-    width: 280px;
-    text-align: center;
-}
-
-.tabla tbody tr {
-    border-bottom: 2px solid #ffdd59;
-}
-
-.tabla tbody tr td {
-    padding: 10px 0;
-    color: black;
-    background: white;
-    width: 280px;
-    text-align: center;
 }
 
 main a {
@@ -81,4 +48,46 @@ main b {
     padding: 5px;
     color: red;
     text-decoration: none;
+}
+
+.tabla {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+}
+
+.tabla tr {
+    height: 35px;
+    text-align: center;
+}
+
+.tabla thead tr {
+    background: #e1b12c;
+    color: #f5f6fa;
+    text-align: center;
+}
+
+.tabla thead tr th {
+    padding: 10px 0;
+    width: 200px;
+    text-align: center;
+}
+
+.tabla tbody tr td {
+    padding: 10px 0;
+    color: #f5f6fa;
+    background: #5a5a5a;
+    width: 200px;
+    text-align: center;
+}
+
+.tabla tbody tr {
+    border-bottom: 2px solid #e1b12c;
+}
+
+main button {
+    width: 100px;
 }

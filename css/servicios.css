@@ -1,13 +1,15 @@
+footer {
+    margin-top: 150px;
+}
+
 html {
     font-family: Verdana;
     font-size: 16px;
     color: #e1b12c;
-    background-color: rgb(59, 59, 59);
     background: radial-gradient(circle, rgba(59, 59, 59, 1) 0%, rgba(31, 31, 31, 1) 25%, rgba(0, 0, 0, 1) 100%);
 }
 
 body {
-    background: rgb(59, 59, 59);
     background: radial-gradient(circle, rgba(59, 59, 59, 1) 0%, rgba(31, 31, 31, 1) 25%, rgba(0, 0, 0, 1) 100%);
 }
 
@@ -18,8 +20,12 @@ h1 {
 }
 
 .tabla {
-    margin: 0 auto;
-    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
 }
 
 .tabla tr {
@@ -29,25 +35,28 @@ h1 {
 
 .tabla thead tr {
     background: #e1b12c;
-    color: #fff;
+    color: #f5f6fa;
     text-align: center;
 }
 
 .tabla thead tr th {
+    padding: 10px 0;
     width: 200px;
     text-align: center;
-}
-
-.tabla tbody tr:nth-child(even) {
-    background: #ffdd59;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    border-bottom: black;
 }
 
 .tabla tbody tr td {
+    padding: 10px 0;
+    color: #f5f6fa;
+    background: #5a5a5a;
     width: 200px;
     text-align: center;
-    padding: 10px;
+}
+
+.tabla tbody tr {
+    border-bottom: 2px solid #e1b12c;
+}
+
+main button {
+    width: 100px;
 }
