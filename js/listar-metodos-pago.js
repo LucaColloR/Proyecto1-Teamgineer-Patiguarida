@@ -1,20 +1,23 @@
 'use strict';
 
-let listaTarjeta = [{
-    'nombre': 'Amanda',
-    'numero': '5258791099000012',
-    'cvv': '120',
-    'mes': '8',
-    'anno': '2023',
-    'usuario': 'Amanda Víquez'
-}, {
-    'nombre': 'José',
-    'numero': '375987654321001',
-    'cvv': '120',
-    'mes': '10',
-    'anno': '2027',
-    'usuario': 'José Ramírez',
-}];
+let listaTarjeta = [
+    /*{
+        'nombre': 'Amanda',
+        'numero': '5258791099000012',
+        'cvv': '120',
+        'mes': '8',
+        'anno': '2023',
+        'usuario': 'Amanda Víquez Obregón'
+    },*/
+    {
+        'nombre': 'Allan',
+        'numero': '375987654321001',
+        'cvv': '120',
+        'mes': '10',
+        'anno': '2027',
+        'usuario': 'Allan Campos Pérez',
+    }
+];
 const logoServicio = document.querySelector('#logo-servicio'),
     inputNomServicio = document.querySelector('#nombreServicio'),
     factura = document.querySelector('#factura'),

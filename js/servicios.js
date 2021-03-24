@@ -10,24 +10,33 @@ const mostrarTabla = () => {
         if (servicio.nombre.toLowerCase().includes(filtro) || servicio.proveedor.toLowerCase().includes(filtro)) {
             let fila = tabla.insertRow();
             fila.insertCell().innerHTML = servicio.nombre; //Se crea un cell por cada nombre de usuario
-            fila.insertCell().innerHTML = servicio.precio; //Se crea un cell por cada tipo de usuario
             fila.insertCell().innerHTML = servicio.proveedor; //Se crea un cell por cada correo de usuario
             fila.insertCell().innerHTML = servicio.telefono; //Se crea un cell por cada nacimiento de usuario
             fila.insertCell().innerHTML = servicio.descripcion; //Se crea un cell por cada sexo de usuario
-
+            fila.insertCell().innerHTML = servicio.precio; //Se crea un cell por cada tipo de usuario
 
             let celdaAcciones = fila.insertCell();
 
             let botonPerfilProveedor = document.createElement('button');
-            botonPerfilProveedor.innerText = 'Ver el perfil del proveedor';
+            botonPerfilProveedor.innerText = 'Ver proveedor';
             botonPerfilProveedor.addEventListener('click', () => {
                 sessionStorage.setItem('proveedorSeleccionado', JSON.stringify(servicio));
                 window.location.href = 'perfil-proveedor.html';
             });
 
+            //let botonEliminar = document.createElement('');
+            // botonEliminar.innerText = 'Eliminar';
+            //botonEliminar.href = '#';
+            botonPerfilProveedor.classList.add('fas');
+            botonPerfilProveedor.classList.add('fa-user');
+            botonPerfilProveedor.type = 'button';
 
             let botonAdquirirServicio = document.createElement('button');
-            botonAdquirirServicio.innerText = 'Adquirir este servicio';
+            botonAdquirirServicio.innerText = 'Adquirir servicio';
+
+            botonAdquirirServicio.classList.add('fas');
+            botonAdquirirServicio.classList.add('fa-cart-arrow-down');
+            botonAdquirirServicio.type = 'button';
 
             botonAdquirirServicio.addEventListener('click', () => {
                 Swal.fire({

@@ -1,28 +1,28 @@
-'use strict';
-let listaServicios = [{
-    'nombre': 'Paseo-Perro',
-    'precio': '₡5000',
-    'proveedor': 'Nuria Hernández Salas',
-    'telefono': '86452349',
-    'descripcion': 'Paseo perros en Moravia',
-
-}, {
-    'nombre': 'Veterinaria a domicilio',
-    'precio': '₡13000',
-    'proveedor': 'Maria Jimena Jiménez Salazar',
-    'telefono': '88689547',
-    'descripcion': 'Emergencias medicas a domicilio por la zona de tibas',
-
-}, {
-    'nombre': 'Cuidador de perros y gatos',
-    'precio': '₡5000',
-    'proveedor': 'Carlos Gutiérrez Hernández Chavez',
-    'telefono': '86695432',
-    'descripcion': 'Cuido perros y gatos a domicilio',
-
-
-}, ];
-
+'use strict'
+let listaUsuarios = [{
+        'correo': 'andres@hotmail.com',
+        'nombre': 'Andres Ledezma',
+        'genero': 'Masculino',
+        'identificacionNumero': '1160795',
+        'identificacionTipo': 'Jurídica',
+        'direccion': 'San José, Moravia, La Trinidad',
+        'contrasenna': '1',
+        'numero': '83032348',
+        'foto': 'https://aws.glamour.es/prod/designs/v1/assets/620x620/678203.jpg',
+        'tipo': 'Administrador'
+    },
+    {
+        'correo': 'cliente@hotmail.com',
+        'nombre': 'Pedro Perez',
+        'genero': 'Masculino',
+        'identificacionNumero': '1-5345-6765',
+        'identificacionTipo': 'Fisica',
+        'direccion': 'San Jose, Moravia, La Trinidad',
+        'contrasenna': '21',
+        'numero': '89543467',
+        'tipo': 'Cliente'
+    }
+];
 
 const iniciarSesion = (correo, contrasenna) => {
     let credencialesCorrectas = false;
@@ -42,7 +42,7 @@ const iniciarSesion = (correo, contrasenna) => {
             'text': 'Ha iniciado sesión correctamente',
             'confirmButtonText': 'Entendido'
         }).then(() => {
-            window.location.href = 'dashboard.html';
+            window.location.href = 'perfil-cliente.html';
         });
     } else {
         Swal.fire({

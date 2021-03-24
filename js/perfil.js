@@ -1,5 +1,5 @@
 'use strict';
-const fotoUsuario = document.querySelector('#foto');
+const fotoUsuario = document.querySelector('.foto');
 const nombreUsuario = document.querySelector('#nombre-cliente');
 const correoUsuario = document.querySelector('#correo-cliente');
 const numeroUsuario = document.querySelector('#numero-cliente');

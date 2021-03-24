@@ -1,0 +1,51 @@
+'use strict';
+
+let listaDueños = [{
+    'nombre': 'Allan Campos',
+    'cedula': '208090801',
+    'correo': 'acampos@gmail.com',
+    'sexo': 'Masculino',
+    'cantidad': '1',
+    'direccion': 'Estancias latinas, San Pedro, Montes de Oca',
+    'fecha': '20-04-2017',
+}, {
+    'nombre': 'Mariel Zuñiga',
+    'cedula': '208033801',
+    'correo': 'zuni54@gmail.com',
+    'sexo': 'Masculino',
+    'cantidad': '1',
+    'direccion': 'Estancias latinas, San Pedro, Montes de Oca',
+    'fecha': '20-09-2019',
+}, {
+    'nombre': 'Maria Castro',
+    'cedula': '208090771',
+    'correo': 'marcas12@gmail.com',
+    'sexo': 'Masculino',
+    'cantidad': '3',
+    'direccion': 'Estancias latinas, San Pedro, Montes de Oca',
+    'fecha': '07-04-2018',
+}, {
+    'nombre': 'Tamara Hernandez',
+    'cedula': '208090801',
+    'correo': 'tamah12@gmail.com',
+    'sexo': 'Masculino',
+    'cantidad': '2',
+    'direccion': 'Estancias latinas, San Pedro, Montes de Oca',
+    'fecha': '16-04-2017',
+}, {
+    'nombre': 'Camila Vega',
+    'cedula': '128090801',
+    'correo': 'vegaa1@gmail.com',
+    'sexo': 'Masculino',
+    'cantidad': '1',
+    'direccion': 'Estancias latinas, San Pedro, Montes de Oca',
+    'fecha': '05-04-2020',
+}, {
+    'nombre': 'Dayanne Campos',
+    'cedula': '118090801',
+    'correo': 'daycampos@gmail.com',
+    'sexo': 'Femenino',
+    'cantidad': '2',
+    'direccion': 'Estancias latinas, San Pedro, Montes de Oca',
+    'fecha': '20-04-2017',
+}];

@@ -3,14 +3,14 @@ let listaUsuarios = [{
         'correo': 'admin@admin.com',
         'nombre': 'Saúl López Obregon',
         'nacimiento': '09-20-1973',
-        'sexo': 'Masculino',
+        'genero': 'Masculino',
         'contrasenna': '123Abc!',
         'tipo': 'Administrador'
     }, {
         'correo': 'nuria@gmail.com',
         'nombre': 'Nuria Hernández Salas',
         'nacimiento': '03-11-1991',
-        'sexo': 'Femenino',
+        'genero': 'Femenino',
         'contrasenna': '123Abc!',
         'tipo': 'Proveedor'
     },
@@ -18,7 +18,12 @@ let listaUsuarios = [{
         'correo': 'alan@gmail.com',
         'nombre': 'Alan Campos Perez',
         'nacimiento': '10-12-1987',
-        'sexo': 'Masculino',
+        'genero': 'Masculino',
+        'identificacionNumero': '116079581',
+        'identificacionTipo': 'Juridica',
+        'direccion': 'San José, Moravia, La Trinidad',
+        'numero': '83032348',
+        'foto': 'https://aws.glamour.es/prod/designs/v1/assets/620x620/678203.jpg',
         'contrasenna': '123Abc!',
         'tipo': 'Cliente'
     },
@@ -26,7 +31,7 @@ let listaUsuarios = [{
         'correo': 'jose@gmail.com',
         'nombre': 'José Ramírez Ureña',
         'nacimiento': '03-11-1990',
-        'sexo': 'Masculino',
+        'genero': 'Masculino',
         'contrasenna': '123Abc!',
         'tipo': 'Cliente'
     }
