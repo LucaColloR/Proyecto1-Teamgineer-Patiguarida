@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/servicios.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/infoMascotas.css">
+
+    <title>Lista administrador padecimientos de gatos</title>
 </head>
 
 <body>
@@ -28,7 +30,7 @@
                     </li>
 
                     <li>
-                        <a href="reportes.html">| Reportes</a>
+                        <a href="reportesAdm.html">| Reportes</a>
                     </li>
 
                     <li>
@@ -64,55 +66,24 @@
     </header>
 
     <main>
-        <h1>Servicios</h1>
-        <table class="tabla">
-            <tr>
-                <th>
-                    <label for="txt-filtro">Filtrar</label>
-                    <input type="text" id="txt-filtro">
-                </th>
-            </tr>
-        </table>
-
-        <table id="tbl-servicios" class="tabla">
+        <a href="javascript: history.go(-1)" class="volver"> <i class="fas fa-arrow-alt-circle-left"></i></a>
+        <h1>Lista de padecimientos de gatos registrados</h1>
+        <table id="tbl-padecimientos-gato" class="tabla">
             <thead>
                 <tr>
-                    <th>Nombre</th>
-                    <th>Proveedor</th>
-                    <th>Telefono</th>
-                    <th>Descripción</th>
-                    <th>Precio</th>
+                    <th>Padecimientos de gato</th>
                     <th></th>
                 </tr>
             </thead>
-
             <tbody>
-
             </tbody>
-
         </table>
-
-
-
     </main>
-
-    <footer>
-        <div class="footer-content">
-            <h3>Patiguarida</h3>
-            <p>¡Encuéntranos en nuestras redes sociales!</p>
-            <ul class="socials">
-                <li><a href="https://twitter.com/home"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://www.facebook.com/#_=_"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-        </div>
-    </footer>
     <script src="js/navegacion.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    <script src="js/info-servicios.js"></script>
-    <script src="js/servicios.js"></script>
-    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+    <script src="js/serviciosPadeG.js"></script>
+    <script src="js/listaPadeG.js"></script>
 
+</body>
 
 </html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/listas.css">
+
+    <title>Lista administador Mascotas</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <nav class="nav-main">
+                <img src="img/logopag.jpg" alt="Patiguarida LOGO" class="imglogo">
+                <ul class="nav-izq">
+                    <li>
+                        <a href="#">Inicio</a>
+                    </li>
+
+                </ul>
+                <ul class="nav-der">
+                    <li>
+                        <a href="crea-cuenta.html">Crear cuenta</a>
+                    </li>
+                    <li>
+                        <a href="inicio-sesion.html">Ingresar</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+            <hr>
+        </div>
+    </header>
+
+    <main>
+        <a href="javascript: history.go(-1)" class="volver"> <i class="fas fa-arrow-alt-circle-left"></i></a>
+        <h1>Lista de Mascotas registradas</h1>
+        <div class="filtrar">
+            <label for="txt-filtro">Filtrar</label>
+            <input type="text" id="txt-filtro">
+        </div>
+        <table id="tbl-mascotas" class="tabla">
+            <thead>
+
+                <tr>
+                    <th>Nombre</th>
+                    <th>Contacto de dueño</th>
+                    <th>Tipo de mascota</th>
+                    <th>Edad</th>
+                    <th>Raza</th>
+                    <th>Padecimientos</th>
+                    <th>Vacunas</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+
+    <script src="js/serviciosMasc.js"></script>
+    <script src="js/listaMascota.js"></script>
+
+</body>
+
+</html>

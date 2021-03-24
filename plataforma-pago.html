@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario de Tarjeta de Crédito Dinámico</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/plataforma-pago.css">>
+</head>
+
+<body>
+    <main>
+        <header class="header-principal">
+
+
+            <div class="logo">
+                <nav class="nav-main">
+                    <img src="img/logopag.jpg" alt="Patiguarida LOGO" class="imglogo">
+                    <ul class="nav-izq">
+                        <li>
+                            <a href="index-usuario.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="servicios.html">| Servicios</a>
+                        </li>
+
+                        <li>
+                            <a href="reportes.html">| Reportes</a>
+                        </li>
+
+                        <li>
+                            <a href="administracion.html">| Administración</a>
+                        </li>
+
+                    </ul>
+                    <ul class="nav-der">
+                        <li>
+                            <a href="historial-proveedor.html">Historial</a>
+                        </li>
+
+                        <li>
+                            <a href="historial-cliente.html">Historial</a>
+                        </li>
+
+                        <li>
+                            <a href="perfil-proveedor.html">| Mi perfil</a>
+                        </li>
+
+                        <li>
+                            <a href="perfil-cliente.html">| Mi perfil</a>
+                        </li>
+
+                        <li>
+                            <a href="index.html" id="btn-cerrar-sesion">| Cerrar sesión</a>
+                        </li>
+                    </ul>
+
+                </nav>
+                <hr>
+            </div>
+        </header>
+
+        <div class="contenedor">
+            <!--Creacion de la tarjetita/img -->
+            <section class="tarjeta" id="tarjeta">
+                <div class="delantera">
+                    <div class="logo-marca" id="logo-marca">
+                    </div>
+                    <img src="img/chip-tarjeta.png" class="chip" alt="">
+                    <div class="datos">
+                        <div class="grupo" id="numero">
+                            <p class="label">Número de Tarjeta</p>
+                            <p class="numero">#### #### #### ####</p>
+                        </div>
+                        <div class="flexbox">
+                            <div class="grupo" id="nombre">
+                                <p class="label"></p>
+                                <p class="nombre"></p>
+                            </div>
+                            <div class="grupo" id="expiracion">
+                                <p class="label">Expiración</p>
+                                <p class="expiracion"><span class="mes">MM</span> / <span class="year">AA</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <main>
+                <!-- Formulario/ campos a rellenar -->
+                <section class="formularioPago">
+
+                    <div>
+                        <h1>Patiguarida</h1>
+                        <div>
+                            <p1> Carrito > Información> Pago.</p1>
+                        </div>
+                        <label for="txt-correo"></label>
+                        <h2>Información de contacto:</h2>
+                        <input type="text" id="txt-correo" required placeholder="Correo eléctronico">
+                        <p>______________________________________________________</p>
+                    </div>
+
+                    <div>
+                        <h3>Método de pago</h3>
+                        <form action="" id="formulario-tarjeta" class="formulario-tarjeta">
+                            <section class="relleno">
+                                <div class="grupo">
+                                    <label for="inputNumero"></label>
+                                    <input type="text" id="inputNumero" maxlength="19" required placeholder="Número de tarjeta:">
+                                </div>
+                                <div class="grupo">
+                                    <label for="inputNombre"></label>
+                                    <input type="text" id="inputNombre" maxlength="19" required placeholder="Nombre de tarjeta:">
+                                </div>
+                            </section>
+                            <div class="grupo">
+                                <input type="text" id="txt-cvv" required placeholder="cvv">
+                            </div>
+                            <div class="flexbox">
+                                <div class="grupo expira">
+                                    <label for="selectMes"></label>
+                                    <div class="grupo-select">
+                                        <select name="mes" id="selectMes">
+                                            <option disabled selected>Mes</option>
+                                        </select>
+                                    </div>
+                                    <div class="grupo-select">
+                                        <select name="year" id="selectYear">
+                                            <option disabled selected>Año</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+
+                    <p>______________________________________________________</p>
+
+                    <div>
+                        <h5>Dirección de facturación:</h5>
+                        <label for="txt-nombre"></label>
+                        <input type="text" id="txt-nombre" required placeholder="Nombre">
+                        <label for="txt-apellido"></label>
+                        <input type="text" id="txt-apellido" required placeholder="Apellido">
+                        <label for="txt-direccion"></label>
+                        <input type="text" id="txt-direccion" required placeholder="Dirección">
+                        <label for="txt-codigoPostal"></label>
+                        <input type="text" id="txt-codigoPostal" required placeholder="Código postal">
+                        <p>______________________________________________________</p>
+                    </div>
+                    <div>
+                        <a href="servicios.html">Volver a servicios</a>
+                        <button type="button" id="btn-confirmarPago" class="btn">Confirmar Pago</button>
+                    </div>
+                    </form>
+                </section>
+            </main>
+            <!-- Pie de pagina -->
+            <footer>
+                <div class="footer-content">
+                    <h3>Patiguarida</h3>
+                    <p>¡Encuéntranos en nuestras redes sociales!</p>
+                    <ul class="socials">
+                        <li><a href="https://twitter.com/home"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/#_=_"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </footer>
+
+</body>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+<script src="js/plataforma-pago.js"></script>
+
+</html>
