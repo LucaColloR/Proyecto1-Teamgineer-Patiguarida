@@ -1,4 +1,18 @@
+html {
+    font-family: Verdana;
+    font-size: 16px;
+    color: #e1b12c;
+    background-color: rgb(59, 59, 59);
+    background: radial-gradient(circle, rgba(59, 59, 59, 1) 0%, rgba(31, 31, 31, 1) 25%, rgba(0, 0, 0, 1) 100%);
+}
+
+body {
+    background: rgb(59, 59, 59);
+    background: radial-gradient(circle, rgba(59, 59, 59, 1) 0%, rgba(31, 31, 31, 1) 25%, rgba(0, 0, 0, 1) 100%);
+}
+
 .formulario {
+    border: 15px solid #e1b12c;
     padding: 30px;
     width: 50%;
     /*para que ocupe el 50% de la página*/
